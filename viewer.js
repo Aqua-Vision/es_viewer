@@ -550,7 +550,6 @@ function createCanvasViewer(tree) {
 
 function computeLayout(tree, ctx) {
   const personBoxes = new Map();
-  const subtreeWidths = new Map();
   const boxGap = 28;
   const levelMarginTop = 60;
   const levelPadding = 70;
@@ -582,52 +581,60 @@ function computeLayout(tree, ctx) {
     generationTops[level] = currentTop;
     currentTop += (generationHeights[level] || 0) + levelPadding;
   });
+  const subtreeBounds = new Map();
+  let nextLeafLeft = 0;
 
-  const measureSubtree = (personId) => {
-    if (subtreeWidths.has(personId)) {
-      return subtreeWidths.get(personId);
-    }
-
+  const layoutNode = (personId) => {
     const box = personBoxes.get(personId);
-    const childIds = tree.childrenByParent.get(personId) || [];
-
-    if (!childIds.length) {
-      subtreeWidths.set(personId, box.width);
-      return box.width;
-    }
-
-    const childrenWidth = childIds.reduce(
-      (sum, childId, index) => sum + measureSubtree(childId) + (index ? boxGap : 0),
-      0
-    );
-    const width = Math.max(box.width, childrenWidth);
-    subtreeWidths.set(personId, width);
-    return width;
-  };
-
-  const setPositions = (personId, leftX) => {
-    const box = personBoxes.get(personId);
-    const subtreeWidth = subtreeWidths.get(personId);
     const level = tree.generationLevels[personId] || 0;
-    box.x = leftX + (subtreeWidth - box.width) / 2;
     box.y = generationTops[level];
 
     const childIds = tree.childrenByParent.get(personId) || [];
     if (!childIds.length) {
-      return;
+      box.x = nextLeafLeft;
+      const bounds = {
+        left: box.x,
+        right: box.x + box.width
+      };
+      subtreeBounds.set(personId, bounds);
+      nextLeafLeft = bounds.right + boxGap;
+      return bounds;
     }
 
-    const totalChildrenWidth = childIds.reduce(
-      (sum, childId, index) => sum + subtreeWidths.get(childId) + (index ? boxGap : 0),
-      0
-    );
-    let childCursor = leftX + (subtreeWidth - totalChildrenWidth) / 2;
+    let firstCenter = null;
+    let lastCenter = null;
+    let left = Number.POSITIVE_INFINITY;
+    let right = Number.NEGATIVE_INFINITY;
 
     childIds.forEach((childId) => {
-      setPositions(childId, childCursor);
-      childCursor += subtreeWidths.get(childId) + boxGap;
+      const childBounds = layoutNode(childId);
+      const childBox = personBoxes.get(childId);
+      const childCenter = childBox.x + childBox.width / 2;
+      if (firstCenter == null) {
+        firstCenter = childCenter;
+      }
+      lastCenter = childCenter;
+      left = Math.min(left, childBounds.left);
+      right = Math.max(right, childBounds.right);
     });
+
+    const desiredCenter = (firstCenter + lastCenter) / 2;
+    box.x = desiredCenter - box.width / 2;
+
+    left = Math.min(left, box.x);
+    right = Math.max(right, box.x + box.width);
+
+    const bounds = { left, right };
+    subtreeBounds.set(personId, bounds);
+    return bounds;
   };
+
+  tree.roots.forEach((rootId, index) => {
+    if (index) {
+      nextLeafLeft += 48;
+    }
+    layoutNode(rootId);
+  });
 
   const shiftSubtree = (personId, delta) => {
     const box = personBoxes.get(personId);
@@ -726,23 +733,29 @@ function computeLayout(tree, ctx) {
     });
   };
 
+  const recenterParent = (personId) => {
+    const box = personBoxes.get(personId);
+    const childIds = tree.childrenByParent.get(personId) || [];
+    if (!box || !childIds.length) {
+      return;
+    }
+
+    const firstChild = personBoxes.get(childIds[0]);
+    const lastChild = personBoxes.get(childIds[childIds.length - 1]);
+    if (!firstChild || !lastChild) {
+      return;
+    }
+
+    const desiredCenter = ((firstChild.x + firstChild.width / 2) + (lastChild.x + lastChild.width / 2)) / 2;
+    box.x = desiredCenter - box.width / 2;
+  };
+
   const compactTree = (personId) => {
     const childIds = tree.childrenByParent.get(personId) || [];
     childIds.forEach(compactTree);
     compactSiblingSet(childIds);
+    recenterParent(personId);
   };
-
-  tree.roots.forEach(measureSubtree);
-
-  let rootCursor = 0;
-  tree.roots.forEach((rootId, index) => {
-    if (index) {
-      rootCursor += 48;
-    }
-
-    setPositions(rootId, rootCursor);
-    rootCursor += subtreeWidths.get(rootId);
-  });
 
   tree.roots.forEach(compactTree);
   compactSiblingSet(tree.roots);
@@ -964,7 +977,6 @@ function drawTree(state) {
   ctx.translate(state.viewport.offsetX, state.viewport.offsetY);
   ctx.scale(state.viewport.scale, state.viewport.scale);
 
-  drawGenerationGuides(ctx, state);
   drawChildLinks(ctx, state);
 
   ctx.restore();
@@ -977,29 +989,6 @@ function drawPaperBackground(ctx, width, height) {
   gradient.addColorStop(1, "#efe2cc");
   ctx.fillStyle = gradient;
   ctx.fillRect(0, 0, width, height);
-}
-
-function drawGenerationGuides(ctx, state) {
-  const levels = Object.keys(state.geometry.generationTops)
-    .map(Number)
-    .sort((left, right) => left - right);
-
-  ctx.save();
-  ctx.strokeStyle = "#cfbea2";
-  ctx.fillStyle = "#7a6650";
-  ctx.lineWidth = 1;
-  ctx.font = "600 11px 'Times New Roman'";
-
-  levels.forEach((level) => {
-    const y = state.geometry.generationTops[level] - 14;
-    ctx.beginPath();
-    ctx.moveTo(0, y);
-    ctx.lineTo(state.geometry.bounds.width, y);
-    ctx.stroke();
-    ctx.fillText(`Generation ${level + 1}`, 0, y - 6);
-  });
-
-  ctx.restore();
 }
 
 function drawChildLinks(ctx, state) {

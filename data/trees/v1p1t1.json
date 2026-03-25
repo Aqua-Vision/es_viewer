@@ -189,6 +189,12 @@
       "lines": [
         "CHARIBERT I",
         "561/67 Kg in PARIS ⚭ I Ingoberga *um 520 ✝geistl Tours 589 getr; ⚭ II Merofled T eines artifex lanarius; ⚭ III Theodogild T eins Schusters; ⚭ IV nach 562 Marcoveifa Schwester v Merofled" 
+      ],
+      "children": [
+        {"marker": "I", "children": ["p30"]},
+        {"marker": "II", "children": ["p31"]},
+        {"marker": "III", "children": ["p32"]},
+        {"marker": "III", "children": ["p33"]}
       ]
     },
     {
@@ -196,6 +202,11 @@
       "lines": [
         "GUNTHCHRAMN",
         "561/92 Kg in ORLÉANS ✝28.III 592 ▭ Chalon St-Marcel; ⚭ I Verneranda; ⚭ II vor 561 Marcatrud T v Jura-hz Magnachar; ⚭ III 566/67 Austregildis gt Bodilla,ancilla der Kgin Marcatrud *548 ✝·IX 580"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p34"]},
+        {"marker": "II", "children": ["p35"]},
+        {"marker": "III", "children": ["p36", "p37", "p38", "p39"]}
       ]
     },
     {
@@ -203,7 +214,8 @@
       "lines": [
         "SIGIBERT I",
         "561/75 Kg in REIMS *535/36 erm Ende 575; ⚭ Frühjahr 566 Brunichild *(545/50) ✝613 ▭ Autun St-Martin T von Athanagild Kg der __Westogten__ u Goiswintha ( ⚭ II 576 Merowech S v Kg Chilperich I in Soissons ✝577)"
-      ]
+      ],
+      "children": ["p40", "p41", "p42"]
     },
     {
       "id": "p26",
@@ -229,13 +241,206 @@
       "lines": [
         "Chramn",
         "555 in der Auvergne ✝verbannt Ende 560; ⚭ vor 556 Chalda ✝verbannt Ende 560 T v Wiliacharius"
-      ]
+      ],
+      "children": ["p43"]
     },
     {
       "id": "p29",
       "lines": [
-        "Gundowad",
+        "Gundowald",
         "(vom Vater nicht anerkannt) 584 Usurpator in Brives-la-Gaillarde ✝585; ⚭NN aus Italien"
+      ],
+      "children": ["p44"]
+    },
+    {
+      "id": "p30",
+      "lines": [
+        "Bertha",
+        "⚭ Aedilberet Kg v __Kent__"
+      ]
+    },
+    {
+      "id": "p31",
+      "lines": [
+        "Berthefled",
+        "✝nach 589"
+      ]
+    },
+    {
+      "id": "p32",
+      "lines": [
+        "Sohn",
+        "✝klein"
+      ]
+    },
+    {
+      "id": "p33",
+      "lines": [
+        "Chrodieldis",
+        "✝nach 590 geistl zu Ste-Croix in Poitiers, dann weltlich"
+      ]
+    },
+    {
+      "id": "p34",
+      "lines": [
+        "Gundobad",
+        "✝Orléans (vergiftet um 565)"
+      ]
+    },
+    {
+      "id": "p35",
+      "lines": [
+        "Sohn",
+        "✝(565)"
+      ]
+    },
+    {
+      "id": "p36",
+      "lines": [
+        "Chlothar",
+        "*567 ✝577"
+      ]
+    },
+    {
+      "id": "p37",
+      "lines": [
+        "Chlodomer",
+        "✝577"
+      ]
+    },
+    {
+      "id": "p38",
+      "lines": [
+        "Chlodoberga",
+        "✝nach 590 geistl zu Ste-Croix in Poitiers, dann weltlich"
+      ]
+    },
+    {
+      "id": "p39",
+      "lines": [
+        "Chlodihildis",
+        "✝nach 28.XI 587"
+      ]
+    },
+    {
+      "id": "p40",
+      "lines": [
+        "Ingund",
+        "*(567) ✝Afrika 585 ⚭ 579 Hermenegild S v Leovigild Kg der __Westgoten__"
+      ]
+    },
+    {
+      "id": "p41",
+      "lines": [
+        "CHILDEBERT II",
+        "575/96 Kg in REIMS u METZ *570; ⚭ I NN ⚭ (II) um 585/86 Faileuba"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p45"]},
+        {"marker": "II", "children": ["p46", "p47"]}
+      ]
+    },
+    {
+      "id": "p42",
+      "lines": [
+        "Chlodoswinth",
+        "✝nach 589"
+      ]
+    },
+    {
+      "id": "p43",
+      "lines": [
+        "TT",
+        "✝verbannt Ende 560"
+      ]
+    },
+    {
+      "id": "p44",
+      "lines": [
+        "2 SS",
+        "589 in Spanien im Westgotenreich"
+      ]
+    },
+    {
+      "id": "p45",
+      "lines": [
+        "THEUDEBERT II",
+        "596/612 Kg in METZ *585 erm 612 nach·V; ⚭ I 600 Bilichildis erm v Theudebert II 610; ⚭ II 610 Teudechilde"
+      ],
+      "children": ["p48", "p49", "p50", "p51"]
+    },
+    {
+      "id": "p46",
+      "lines": [
+        "THEUDERICH II",
+        "*587 ✝Metz 613 nach 3/29.III"
+      ],
+      "children": [
+        {"marker": "aus der Verbindung mit NN:", "children": ["p52"]},
+        {"marker": "", "children": ["p53", "p54", "p55"]}
+      ]
+    },
+    {
+      "id": "p47",
+      "lines": [
+        "Theudila",
+        "*(590) ✝nach 613"
+      ]
+    },
+    {
+      "id": "p48",
+      "lines": [
+        "Tochter",
+        "604"
+      ]
+    },
+    {
+      "id": "p49",
+      "lines": [
+        "Tochter",
+        "612"
+      ]
+    },
+    {
+      "id": "p50",
+      "lines": [
+        "Chlothar",
+        "erm 612"
+      ]
+    },
+    {
+      "id": "p51",
+      "lines": [
+        "Merowech",
+        "*612 ✝am Felsen zerschmettert 612"
+      ]
+    },
+    {
+      "id": "p52",
+      "lines": [
+        "SIGIBERT II",
+        "613 Kg der FRANKEN *602 erm 6 13"
+      ]
+    },
+    {
+      "id": "p53",
+      "lines": [
+        "Childebert",
+        "*603"
+      ]
+    },
+    {
+      "id": "p54",
+      "lines": [
+        "Corbus",
+        "*604 erm 613"
+      ]
+    },
+    {
+      "id": "p55",
+      "lines": [
+        "Merowech",
+        "*607"
       ]
     }
   ]
