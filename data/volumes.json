@@ -1,0 +1,15 @@
+{
+  "volumes": [
+    {
+      "id": "v1p1",
+      "title": "BAND I.1 (Die fränkischen Könige und die Könige und Kaiser, Stammesherzoge und Kurfürsten, Markgrafen und Herzoge des Heiligen Römischen Reiches Deutscher Nation)",
+      "trees": [
+        {
+          "id": "v1p1t1",
+          "name": "Die MEROWINGER I",
+          "file": "data/trees/v1p1t1.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "example",
+  "name": "Merowech and Childerich I",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "replace with citation",
+    {
+      "text": "Chlodwig I wird Weihnachten 497, 498 oder 499 durch Bischof Remigius von Reims getauft Seine 2.Gemhalin Chrodihild hat ihre beiden älteren Söhne schon vorher taufen lassen",
+      "note": "Clovis I was baptized by Bishop Remigius of Reims on Christmas Day in either 497, 498, or 499. His second wife, Chrodihild, had already had her two eldest sons baptized prior to this."
+    }
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "Merowech",
+        "um 451"
+      ],
+      "children": ["p2"]
+    },
+    {
+      "id": "p2",
+      "lines": [
+        "CHILDERICH I",
+        "KÖNIG der FRANKEN 463,469 ✝482 ▭ bei Doornick ⚭ Basina (aus Thüringen)"
+      ],
+      "children": ["p3", "p4", "p5"]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "CHLODOWECH (CHLODWIG) I",
+        "482 Kg der FRANKEN *466 ✝27.XI 511 ▭ Paris Apostelkirche (Ste-Geneviève); ⚭ I vornehme Fränkin ⚭ II 492/94 Chrodihild T v Chilperich II Teil-kg v __Burgund__ sie ✝544 ▭ Paris Apostelkirche (Ste-Geneviève)"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p6"]},
+        {"marker": "II", "children": ["p7", "p8", "p9", "p10", "p11"]}
+      ]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "Lantechild"
+      ]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "Audofled",
+        "⚭ Theoderich d Gr Kg der __Goten__ ✝26.VIII.526"
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "THEUDERICH I",
+        "511/33 Kg in Reims *(484) ✝Ende 533 ⚭ I Suavegotta (566✝); ⚭ II um 517 N T v Siginus Kg der __Burgunder__"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p12", "p13"]}
+      ]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "Ingomer",
+        "*(493/94) ✝klein"
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "CHLODOMER",
+        "511/24 Kg in ORLÉANS *(494/95) ⚔ bei Vézéronce 21. VI 524; ⚭ Guntheuca ( ⚭ II 524 Chlothar I Kg der Franken in Soissons ✝Ende XI/•XII 561)"
+      ],
+      "children": ["p16", "p17", "p18"]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "CHILDEBERT I",
+        "511/58 Kg in PARIS *(497) ✝23.XII 558 ▭ Paris abbaye de Saint-Vincent (Saint-Germain-des Prés); ⚭ Ultrogothe ✝nach 567 ▭ Paris abbaye de Saint-Vincent (Saint-Germain-des-Prés)"
+      ],
+      "children": ["p19", "p20"]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "CHLOTHAR I",
+        "511/61 Kg in SOISSONS ✝Ende XI/•XII 561 ▭ Soissons St-Médard; ⚭ I um 516 Ingund ✝590; ⚭ II 524 Guntheuca Wwe v Chlodomer Kg der Franken in Orléans; ⚭ III um 533/34 Ar(n)egund; ⚭ IV um 540 Radegund ✝13.VIII 587 getr,dann geistl, stiftet Ste-Croix zu Poitiers T v Berthacher Teil-kg der __Thüringer__; ⚭ V Chunsina; (⚭ VI NN); ⚭ (VII) Waldrada Wwe v Kg Theudowald in Reims T v Wacho Kg der Langobarden"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p21", "p22", "p23", "p24", "p25", "p26", "p27"]},
+        {"marker": "V", "children": ["p28"]},
+        {"marker": "VI", "children": ["p29"]}
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "Chlodichild",
+        "✝531 ▭ Paris Apostelkirche (Ste-Geneviève); ⚭ 526/27 Amalarich der __Westgoten__ erm Barcelona 531"
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "THEUDEBERT I",
+        "533/47 Kg in REIMS ✝Ende 547(Anfag 548) ⚭ I 532 Derteria um 537/538 verstossen; ⚭ II Wisigard ✝jung T v Wacho kg der __Langobarden__; ⚭ III NN"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p14"]},
+        {"marker": "II oder III", "children": ["p15"]}
+      ]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "Theudechild",
+        "597✝ ▭ St-Pierre-le-Vif vor Sens; ⚭ I Hermegiselus Kg der __Warnen__; ⚭ II Radigis, Stief-S v Hermegiselus"
+      ]
+    },
+    {
+      "id": "p14",
+      "lines": [
+        "THEUDOWALD",
+        "548/55 in REIMS ✝·XI/XII 555; ⚭ Vuldetrada/Waldrada T v Wacho Kg der __Langobarden__ ( ⚭ II 524 Chlothar I Kg der Franken in Soissons ✝Ende XI/·XX 561)"
+      ]
+    },
+    {
+      "id": "p15",
+      "lines": [
+        "Berthora",
+        "um 566 in Mainz"
+      ]
+    },
+    {
+      "id": "p16",
+      "lines": [
+        "Theudoald",
+        "✝getötet mit 10 Jahren v Chlothar I"
+      ]
+    },
+    {
+      "id": "p17",
+      "lines": [
+        "Gunthar",   
+        "✝getötet mit 7 Jahren v Chlothar I"
+      ]
+    },
+    {
+      "id": "p18",
+      "lines": [
+        "Chlodoald",
+        "geistlich"
+      ]
+    },
+    {
+      "id": "p19",
+      "lines": [
+        "Chrodoswinth",   
+        "✝nach 567"
+      ]
+    },
+    {
+      "id": "p20",
+      "lines": [
+        "Chro(do)bertha",
+        "✝nach 567"
+      ]
+    },
+    {
+      "id": "p21",
+      "lines": [
+        "Gunthar",
+        "(555/561✝)"
+      ]
+    },
+    {
+      "id": "p22",
+      "lines": [
+        "Childerich",
+        "(555✝)"
+      ]
+    },
+    {
+      "id": "p23",
+      "lines": [
+        "CHARIBERT I",
+        "561/67 Kg in PARIS ⚭ I Ingoberga *um 520 ✝geistl Tours 589 getr; ⚭ II Merofled T eines artifex lanarius; ⚭ III Theodogild T eins Schusters; ⚭ IV nach 562 Marcoveifa Schwester v Merofled" 
+      ]
+    },
+    {
+      "id": "p24",
+      "lines": [
+        "GUNTHCHRAMN",
+        "561/92 Kg in ORLÉANS ✝28.III 592 ▭ Chalon St-Marcel; ⚭ I Verneranda; ⚭ II vor 561 Marcatrud T v Jura-hz Magnachar; ⚭ III 566/67 Austregildis gt Bodilla,ancilla der Kgin Marcatrud *548 ✝·IX 580"
+      ]
+    },
+    {
+      "id": "p25",
+      "lines": [
+        "SIGIBERT I",
+        "561/75 Kg in REIMS *535/36 erm Ende 575; ⚭ Frühjahr 566 Brunichild *(545/50) ✝613 ▭ Autun St-Martin T von Athanagild Kg der __Westogten__ u Goiswintha ( ⚭ II 576 Merowech S v Kg Chilperich I in Soissons ✝577)"
+      ]
+    },
+    {
+      "id": "p26",
+      "lines": [
+        "Chlodoswinth",
+        "(567✝) ⚭ 556/61 Alboin Kg der __Langobarden__ erm Verona auf Anstiftung seiner Gemahlin Kosemunda 572/73"
+      ]
+    },
+    {
+      "id": "p27",
+      "lines": [
+        "CHILPERICH I",
+        "561/84 Kg in SOISSONS",
+        "**Click to view next tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t2"
+      }
+    },
+    {
+      "id": "p28",
+      "lines": [
+        "Chramn",
+        "555 in der Auvergne ✝verbannt Ende 560; ⚭ vor 556 Chalda ✝verbannt Ende 560 T v Wiliacharius"
+      ]
+    },
+    {
+      "id": "p29",
+      "lines": [
+        "Gundowad",
+        "(vom Vater nicht anerkannt) 584 Usurpator in Brives-la-Gaillarde ✝585; ⚭NN aus Italien"
+      ]
+    }
+  ]
+}

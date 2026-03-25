@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tree Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar viewer-topbar">
+    <div>
+      <h1 id="treeTitle">Tree Viewer</h1>
+      <p><a href="index.html">&larr; Back to volumes</a></p>
+    </div>
+
+    <div class="viewer-controls">
+      <button id="zoomOutBtn" type="button" aria-label="Zoom out">-</button>
+      <button id="zoomResetBtn" type="button" aria-label="Reset view">Reset</button>
+      <button id="zoomInBtn" type="button" aria-label="Zoom in">+</button>
+    </div>
+  </header>
+
+  <main class="viewer-layout">
+    <section id="treeView" class="tree-view">
+      <canvas id="treeCanvas" class="tree-canvas"></canvas>
+      <div id="treeTextLayer" class="tree-text-layer" aria-hidden="true"></div>
+      <div class="tree-hint">Drag to pan. Use the mouse wheel to zoom.</div>
+    </section>
+
+    <aside id="sourcePanel" class="sources-panel">
+      <h2>Sources</h2>
+      <p>Sources cited for this tree.</p>
+    </aside>
+  </main>
+
+  <script src="viewer.js"></script>
+</body>
+</html>
