@@ -68,6 +68,7 @@ function normalizeTree(treeMeta, treeData) {
   const primaryParentByChild = buildPrimaryParentMap(people, chartPersonIds);
   const childrenByParent = buildChildrenMap(primaryParentByChild, people);
   const childMarkersByParent = buildChildMarkersMap(people);
+  const childUncertainByParent = buildChildUncertainMap(people);
   const generationLevels = buildGenerationLevels(chartPersonIds, primaryParentByChild);
   const roots = chartPersonIds.filter((personId) => !primaryParentByChild.get(personId));
 
@@ -80,6 +81,7 @@ function normalizeTree(treeMeta, treeData) {
     chartPersonIds,
     childrenByParent,
     childMarkersByParent,
+    childUncertainByParent,
     generationLevels
   };
 }
@@ -264,7 +266,7 @@ function normalizeChildren(person) {
 
 function normalizeChildEntry(child) {
   if (typeof child === "string") {
-    return [{ id: child, marker: "" }];
+    return [{ id: child, marker: "", uncertain: false }];
   }
 
   if (!child || typeof child !== "object") {
@@ -288,7 +290,8 @@ function normalizeChildEntry(child) {
       .filter(Boolean)
       .map((childId) => ({
         id: String(childId),
-        marker
+        marker,
+        uncertain: Boolean(child.uncertain)
       }));
   }
 
@@ -296,7 +299,8 @@ function normalizeChildEntry(child) {
   return id
     ? [{
         id,
-        marker
+        marker,
+        uncertain: Boolean(child.uncertain)
       }]
     : [];
 }
@@ -409,6 +413,23 @@ function buildChildMarkersMap(people) {
   });
 
   return childMarkersByParent;
+}
+
+function buildChildUncertainMap(people) {
+  const childUncertainByParent = new Map();
+
+  Object.values(people).forEach((person) => {
+    const uncertain = new Map();
+    person.children.forEach((childRef) => {
+      if (childRef.uncertain) {
+        uncertain.set(childRef.id, true);
+      }
+    });
+
+    childUncertainByParent.set(person.id, uncertain);
+  });
+
+  return childUncertainByParent;
 }
 
 function buildGenerationLevels(chartPersonIds, primaryParentByChild) {
@@ -1010,25 +1031,64 @@ function drawChildLinks(ctx, state) {
       return;
     }
 
-    const branchY = parentBox.y + parentBox.height + 16;
+    const childGeneration = state.tree.generationLevels[orderedChildren[0].person.id] || 0;
+    const childRowTop = state.geometry.generationTops[childGeneration] || orderedChildren[0].y;
+    const minBranchY = parentBox.y + parentBox.height + 12;
+    const preferredBranchY = childRowTop - 18;
+    const branchY = Math.max(minBranchY, preferredBranchY);
     const leftX = orderedChildren[0].x + orderedChildren[0].width / 2;
     const rightX = orderedChildren[orderedChildren.length - 1].x + orderedChildren[orderedChildren.length - 1].width / 2;
     const parentCenterX = parentBox.x + parentBox.width / 2;
+    const uncertainMap = state.tree.childUncertainByParent.get(parentId);
+    const firstUncertainIndex = orderedChildren.findIndex((childBox) => uncertainMap?.get(childBox.person.id));
 
     ctx.beginPath();
     ctx.moveTo(parentCenterX, parentBox.y + parentBox.height);
     ctx.lineTo(parentCenterX, branchY);
-    ctx.moveTo(leftX, branchY);
-    ctx.lineTo(rightX, branchY);
     ctx.stroke();
+
+    if (firstUncertainIndex === -1) {
+      ctx.beginPath();
+      ctx.moveTo(leftX, branchY);
+      ctx.lineTo(rightX, branchY);
+      ctx.stroke();
+    } else {
+      const uncertainStartX = orderedChildren[firstUncertainIndex].x + orderedChildren[firstUncertainIndex].width / 2;
+
+      if (uncertainStartX > leftX) {
+        ctx.beginPath();
+        ctx.moveTo(leftX, branchY);
+        ctx.lineTo(uncertainStartX, branchY);
+        ctx.stroke();
+      }
+
+      ctx.save();
+      ctx.setLineDash([4, 4]);
+      ctx.beginPath();
+      ctx.moveTo(uncertainStartX, branchY);
+      ctx.lineTo(rightX, branchY);
+      ctx.stroke();
+      ctx.restore();
+    }
 
     orderedChildren.forEach((childBox) => {
       const childCenterX = childBox.x + childBox.width / 2;
       const marker = state.tree.childMarkersByParent.get(parentId)?.get(childBox.person.id) || "";
+      const isUncertain = Boolean(uncertainMap?.get(childBox.person.id));
+
+      if (isUncertain) {
+        ctx.save();
+        ctx.setLineDash([4, 4]);
+      }
+
       ctx.beginPath();
       ctx.moveTo(childCenterX, branchY);
       ctx.lineTo(childCenterX, childBox.y);
       ctx.stroke();
+
+      if (isUncertain) {
+        ctx.restore();
+      }
 
       if (marker) {
         drawChildMarker(ctx, childCenterX, branchY - 6, marker, orderedChildren.length === 1);

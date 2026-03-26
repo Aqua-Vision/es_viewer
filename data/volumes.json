@@ -8,6 +8,11 @@
           "id": "v1p1t1",
           "name": "Die MEROWINGER I",
           "file": "data/trees/v1p1t1.json"
+        },
+        {
+          "id": "v1p1t2",
+          "name": "Die MEROWINGER II",
+          "file": "data/trees/v1p1t2.json"
         }
       ]
     }

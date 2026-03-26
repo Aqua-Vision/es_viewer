@@ -1,0 +1,270 @@
+{
+  "id": "v1p1t2",
+  "name": "Die MEROWINGER II",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "replace with citation"
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "CHILPERICH I",
+        "561/84 König in SOISSONS ✝27.IX/9.X 584 ▭ Paris Saint-Vincent (Saint-Germain-des-Prés) ⚭ I um 549/550 Audovera *(535) ✝·X/XI 580; ⚭ II um 567 Gailswinth T v Athanagild Kg der __Westgoten__ u Goinswinth; ⚭ III um 570/71 Fredegund \"ex familia infirma\" ✝597 ▭ Paris Saint-Vincent (Saint-Germain-des-Prés)",
+        "**Click to view previous tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t1"
+      },
+      "children": [
+        {"marker": "I", "children": ["p2", "p3", "p4", "p5", "p6"]},
+        {"marker": "II", "children": ["p7", "p8", "p9", "p10", "p11", "p12"]}
+      ]
+    },
+    {
+      "id": "p2",
+      "lines": [
+        "Theudebert",
+        "⚔ 575 ▭ Angoulême"
+      ]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "Merowech",
+        "✝577 ▭ 585 Paris St-Vincent; ⚭ Brunichild *(545/50) ✝613 ▭ Autun St-Martin Wwe v Sigibert I Kg der Franken in Reims T v Athanagild Kg der __Westgoten__ u Goiswintha"
+      ]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "Chlodowech",
+        "✝Noisy-le-Grand 580-585 ▭ 585 Paris St-Vincent"
+      ]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "Basina",
+        "✝nach 590 580-581 geistl zu Ste-Croix in Poitiers"
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "(Childesinth)"
+      ]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "Chlodobert",
+        "*585 ✝Soissons 580 ▭ ibidem St-Crispin"
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "Rigunth",
+        "✝nach 985"
+      ]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "Samson",
+        "*575 ✝577"
+      ]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "Dagobert",
+        "✝Bernis-Rivière 580 ▭ Saint-Denis"
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "Theuderich",
+        "*582 ✝584 ▭ Paris"
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "CHLOTHAR II",
+        "*613 König der FRANKEN *584 ✝18.IX 629/8.IV 630 ▭ 585 Paris St-Vincent (Saint-Germain-des-Prés); ⚭ I um 599 Heldetrud 613✝ ▭ Rouen St-Pierre; ⚭ II Bertetrud 613 ✝618 ▭ 585 Paris St-Vincent (Saint-Germain-des-Prés); ⚭ III Sigihild 625/26"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p13", "p14", "p15"]},
+        {"marker": "II", "children": ["p16"]},
+        {"marker": "II", "children": ["p17"], "uncertain": true}
+      ]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "Merowech",
+        "604"
+      ]
+    },
+    {
+      "id": "p14",
+      "lines": [
+        "Sohn",
+        "✝nach 613"
+      ]
+    },
+    {
+      "id": "p15",
+      "lines": [
+        "DAGOBERT I",
+        "613 UNTERKÖNKIG in AUSTRIEN *um 608/610 ✝19.I 639 ▭ Saint-Denis ⚭ I 625 Gomatrud gesch 629 Schwester v Sigihild ⚭ Chlothar II; ⚭ II 629 Nantechild ✝642 ▭ Saint-Denis Schwester v Landegisel, ihre Nichte Ragnoberta; ⚭ III Vulfegundis \"regina\"; ⚭ IV Berchildis \"regina\""
+      ],
+      "children": [
+        {"marker": "aus der Verbindung mit Ragnetrud:", "children": ["p18"]},
+        {"marker": "II", "children": ["p19"]}
+      ]
+    },
+    {
+      "id": "p16",
+      "lines": [
+        "CHARIBERT II",
+        "629 UNTERKÖNKIG in AQUITANIEN (TOULOUSE) 628 ✝8.IV 632 ▭ Blaye, St-Romain"
+      ],
+      "children": ["p20"]
+    },
+    {
+      "id": "p17",
+      "lines": [
+        "Aemma",
+        "⚭ Eadbald Kg v __Kent__ 616/40"
+      ]
+    },
+    {
+      "id": "p18",
+      "lines": [
+        "SIGIBERT III",
+        "Kg in METZ *630 ✝1.II 656 ⚭ nach 646 Chinnechild"
+      ],
+      "children": ["p21", "p22"]
+    },
+    {
+      "id": "p19",
+      "lines": [
+        "CHLODWIG II",
+        "Kg in PARIS *634 ✝11.IX/16.XI 657; ⚭ um 650 BALTHILD,657/um 665 REGENTIN,stiftet abbaye de Chelles ✝30.I (680) ▭ Chelles"
+      ],
+      "children": ["p23", "p24", "p25"]
+    },
+    {
+      "id": "p20",
+      "lines": [
+        "Chilperich",
+        "✝kurz nach 8.IV 632"
+      ]
+    },
+    {
+      "id": "p21",
+      "lines": [
+        "Bilichild",
+        "erm schwanger Herbst 675 ▭ Saint-Germain-des-Prés; ⚭ 18.X/9.XII 662 Childerich II Kg der __Franken__ in Austrien erm Herbst 675"
+      ]
+    },
+    {
+      "id": "p22",
+      "lines": [
+        "DAGOBERT II",
+        "676 Kg in METZ erm bei Stenay 23.XII.679 ▭ Stenay"
+      ]
+    },
+    {
+      "id": "p23",
+      "lines": [
+        "CHLOTHAR III",
+        "657 Kg in PARIS *(650/51) ✝673 nach 10.III"
+      ],
+      "children": ["p26"]
+    },
+    {
+      "id": "p24",
+      "lines": [
+        "THEUDERICH III",
+        "673,675/90 Kg *(653) ✝2.IX 690/12.IV 691 ▭ Arrast-St-Vas; ⚭ um 676 CHRODECHILD ✝als REGENTIN nach 5.VI 692"
+      ],
+      "children": ["p27", "p28"]
+    },
+    {
+      "id": "p25",
+      "lines": [
+        "CHILDERICH II",
+        "662 Kg in AUSTRIEN erm Herbst 675 ▭ Paris Saint-Germain-des-Prés; ⚭ 18.X/9.XII 662 Bilichild erm schwanger Herbst 675 ▭ Saint-Germain-des-Prés T v Sigibert III Kg in Metz"
+      ],
+      "children": ["p29", "p30"]
+    },
+    {
+      "id": "p26",
+      "lines": [
+        "Chlodwig",
+        "675/76 zum Kg ausgerufen"
+      ]
+    },
+    {
+      "id": "p27",
+      "lines": [
+        "CHLODWIG III",
+        "690/91 Kg ✝Ende 694"
+      ]
+    },
+    {
+      "id": "p28",
+      "lines": [
+        "CHILDEBERT III",
+        "694/711 Kg ✝711 vor 2.III ▭ Choisy-au-Bac; ⚭ NN"
+      ],
+      "children": [
+        {"marker": "", "children": ["p31"]},
+        {"marker": "", "children": ["p32"], "uncertain": true}
+      ]
+    },
+    {
+      "id": "p29",
+      "lines": [
+        "Dagobert",
+        "erm Herbst 675"
+      ]
+    },
+    {
+      "id": "p30",
+      "lines": [
+        "Daniel/CHILPERICH II",
+        "zuerst geistl 715/16 Kg ✝Noyon 30.I/13.V 721 ▭ ibidem"
+      ]
+    },
+    {
+      "id": "p31",
+      "lines": [
+        "DAGOBERT III",
+        "711 Kg ✝3.IX 715/29.II 716"
+      ],
+      "children": ["p33"]
+    },
+    {
+      "id": "p32",
+      "lines": [
+        "CHLOTHAR IV",
+        "717 Kg ✝719"
+      ]
+    },
+    {
+      "id": "p33",
+      "lines": [
+        "THEUDERICH IV",
+        "721 Kg ✝16.III/30.IV 737"
+      ]
+    }
+  ]
+}
