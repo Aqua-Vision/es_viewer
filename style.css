@@ -96,6 +96,12 @@ button:hover, .tree-link:hover {
   min-height: 0;
 }
 
+.editor-layout {
+  display: flex;
+  height: calc(100vh - 81px);
+  min-height: 0;
+}
+
 .viewer-controls {
   display: flex;
   gap: 8px;
@@ -111,6 +117,10 @@ button:hover, .tree-link:hover {
   background:
     radial-gradient(circle at top right, rgba(120, 85, 45, 0.06), transparent 34%),
     linear-gradient(to bottom, #f8f1e5, #efe2cc);
+}
+
+.editor-view {
+  border-right: 1px solid #ccb99a;
 }
 
 .tree-canvas {
@@ -156,6 +166,30 @@ button:hover, .tree-link:hover {
   background: rgba(253, 249, 241, 0.98);
 }
 
+.editor-box {
+  padding-top: 26px;
+}
+
+.editor-box.is-selected {
+  border-color: #6f5638;
+  box-shadow: 0 0 0 1px rgba(111, 86, 56, 0.25);
+}
+
+.editor-box-controls {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  display: flex;
+  gap: 4px;
+}
+
+.editor-box-button {
+  min-width: 20px;
+  padding: 1px 5px;
+  font-size: 11px;
+  line-height: 1.1;
+}
+
 .tree-text-line {
   display: block;
 }
@@ -194,6 +228,52 @@ button:hover, .tree-link:hover {
   border-left: 1px solid #dcccb4;
 }
 
+.editor-panel {
+  width: 360px;
+  padding: 16px 18px;
+  box-sizing: border-box;
+  overflow: auto;
+  background: #f7f0e2;
+  line-height: 1.4;
+  border-left: 1px solid #dcccb4;
+}
+
+.editor-section + .editor-section {
+  margin-top: 22px;
+}
+
+.editor-section h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.editor-label {
+  display: block;
+  margin: 10px 0 6px 0;
+  font-size: 13px;
+  color: #5c4d3e;
+}
+
+.editor-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #c7b395;
+  background: #fbf7ef;
+  font: 13px/1.4 Consolas, "Courier New", monospace;
+  resize: vertical;
+}
+
+.editor-json-preview {
+  min-height: 280px;
+}
+
+.editor-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
 .sources-panel h2 {
   margin: 0 0 12px 0;
   font-size: 18px;
@@ -226,6 +306,11 @@ button:hover, .tree-link:hover {
     height: auto;
   }
 
+  .editor-layout {
+    flex-direction: column;
+    height: auto;
+  }
+
   .tree-view {
     min-height: 60vh;
     border-right: 0;
@@ -233,6 +318,10 @@ button:hover, .tree-link:hover {
   }
 
   .sources-panel {
+    width: auto;
+  }
+
+  .editor-panel {
     width: auto;
   }
 }

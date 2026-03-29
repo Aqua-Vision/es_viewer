@@ -572,6 +572,7 @@ function createCanvasViewer(tree) {
 function computeLayout(tree, ctx) {
   const personBoxes = new Map();
   const boxGap = 28;
+  const boxClearanceX = 18;
   const levelMarginTop = 60;
   const levelPadding = 70;
 
@@ -614,8 +615,8 @@ function computeLayout(tree, ctx) {
     if (!childIds.length) {
       box.x = nextLeafLeft;
       const bounds = {
-        left: box.x,
-        right: box.x + box.width
+        left: box.x - boxClearanceX,
+        right: box.x + box.width + boxClearanceX
       };
       subtreeBounds.set(personId, bounds);
       nextLeafLeft = bounds.right + boxGap;
@@ -642,8 +643,8 @@ function computeLayout(tree, ctx) {
     const desiredCenter = (firstCenter + lastCenter) / 2;
     box.x = desiredCenter - box.width / 2;
 
-    left = Math.min(left, box.x);
-    right = Math.max(right, box.x + box.width);
+    left = Math.min(left, box.x - boxClearanceX);
+    right = Math.max(right, box.x + box.width + boxClearanceX);
 
     const bounds = { left, right };
     subtreeBounds.set(personId, bounds);
@@ -678,8 +679,8 @@ function computeLayout(tree, ctx) {
     const level = tree.generationLevels[personId] || 0;
     const contours = {
       [level]: {
-        left: box.x,
-        right: box.x + box.width
+        left: box.x - boxClearanceX,
+        right: box.x + box.width + boxClearanceX
       }
     };
 

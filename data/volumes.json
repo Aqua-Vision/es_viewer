@@ -2,16 +2,16 @@
   "volumes": [
     {
       "id": "v1p1",
-      "title": "BAND I.1 (Die fränkischen Könige und die Könige und Kaiser, Stammesherzoge und Kurfürsten, Markgrafen und Herzoge des Heiligen Römischen Reiches Deutscher Nation)",
+      "title": "BAND I.1 (Die frankischen Konige und die Konige und Kaiser, Stammesherzoge und Kurfursten, Markgrafen und Herzoge des Heiligen Romischen Reiches Deutscher Nation)",
       "trees": [
         {
           "id": "v1p1t1",
-          "name": "Die MEROWINGER I",
+          "name": "Tafel 1 - Die MEROWINGER I",
           "file": "data/trees/v1p1t1.json"
         },
         {
           "id": "v1p1t2",
-          "name": "Die MEROWINGER II",
+          "name": "Tafel 2 - Die MEROWINGER II",
           "file": "data/trees/v1p1t2.json"
         }
       ]
