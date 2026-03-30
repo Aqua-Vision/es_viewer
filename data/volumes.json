@@ -13,6 +13,11 @@
           "id": "v1p1t2",
           "name": "Tafel 2 - Die MEROWINGER II",
           "file": "data/trees/v1p1t2.json"
+        },
+        {
+          "id": "v1p1t3",
+          "name": "Tafel 3 - Die ARNULFINGER - 751-771 KÖNIGE der FRANKEN - und die Familie Pippin's des Älteren",
+          "file": "data/trees/v1p1t3.json"
         }
       ]
     }

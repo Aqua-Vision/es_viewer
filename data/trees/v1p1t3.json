@@ -1,0 +1,356 @@
+{
+  "id": "v1p1t3",
+  "name": "Die ARNULFINGER - 751-771 KONIGE der FRANKEN - und die Familie Pippin's des Alteren",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "1. Eduard Hlawitschka, Die Vorfahren Karls des Grossen, in: Wolfgang Braunfels, hgg v, Karl der Grosse Lebenswerk und Nachleben Band 1: Persönlichkeit und Geschichte, hgg v Hellmut Beumann, Düsseldorf 1965, pp 51 - 82",
+    "2. Karl August Eckhardt, Merowingerblut 1 Die Karolinger und ihre Frauen, Witzenhausen 1965, pp 12 - 73",
+    "3. idem, Studia Merovingica, Aalen 1976, besonders pp 118-130 zu Hausmeier Theudoald (- Bibliotheca rerum historicarum 11)",
+    "4. Eduard Hlawitschka, Studien zur Genealogie und Geschichte der Merowinger und frühen Karolinger, in: Rheinische Vierteljahresblätter 43.1979, pp 1 - 99",
+    "5. Karl Ferdinand Werner, Die Nachkommen Karls des Grossen bis um das Jahr 1000 (1.-8. Generation), in: Wolfgang Braunfels, hgg v, Karl der Grosse, Lebenswerk und Nachleben Band IV; Das Nachleben hgg v Wolfgang Braunfels und Percy Ernst Schramm, Düssekdirg 1967, pp 403-482",
+
+    "6. Eduard Hlawitschka, Zu den Grundlagen des Aufstiegs der Karolinger, in: Rheinische Vierteljahresblätter 49, 1985, pp 1 - 61",
+    "7. idem, Die Anfänge des Hauses Habsburg-Lothringen. Searbrücken 1969, pp 58 ss",
+    "8. Lexikon des Mittelalters 1-VII, München-Zürich 1977-1984, passim",
+    "9. Pierre Riché, Die Karolinger Eine Familie formt Europa, Stuttgart 1987",
+    "10. ingrid Heidrich, Titulatur und Urkunden der arnulfingischen Hausmeier, in: Archiv für Diplomatik 11/12.Band, 1965/66, pp 71 - 279",
+    "11. Lorenz Weinrich, Walo Graf, Mönch und Rebell, Lübeck und Hamburg 1963 (-Karolingische Studien Heft 386)",
+    "12. Brigitte Kasten, Adalhard von Corbie, Düsseldorf 1986 (-Studia humanoria Düsseldorfer Studien zu Mittelalter und Renaissance Band 3)",
+    "13. Rudolf Schieffer, Karolingische Töchter, in: Herrschaft, Kirche, Kulter Beiträge zur Geschichte des Mittelalters Festchrift für Friedrich Prinz zu seinem 65. Geburtstag, hgg v Georg Jenal unter Mitwirkung von Stephanie Haarländer, Stuttgart 1993, pp 124-139"
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "Arnulf",
+        "613 ✝bei Remiremont 18.VII (640) Habendum/Remiremont,dann Metz St Arnulf 614/29 Bf v Metz; ⚭ NN"
+      ],
+      "children": ["p3", "p4"]
+    },
+    {
+      "id": "p2",
+      "lines": [
+        "Pippin der Ältere",
+        "623/29 Hausmeier in Austrien, 613 ✝640 ⚭ Itta-Iduberga,stiftet 640 Nivelles *592 ✝652"
+      ],
+      "children": ["p5", "p6", "p7"]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "Chlodulf",
+        "Bf v Metz um 660"
+      ],
+      "children": ["p8"]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "Ansegisel",
+        "um 662 ✝erschlagen vor 679; ⚭ Begga 690-691 Stifterin v Andenne ✝(692)"
+      ],
+      "children": ["p9"]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "Begga",
+        "690-691 Stifterin v Andenne ✝(692); ⚭ Ansegisel um 662 ✝erschlagen vor 679"
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "Grimoald",
+        "642-643 Hausmeier in Austrien, um 650 Mitgründer v Stablo u Malmédy *(615) ✝Paris im Kerker hingerichtet 656/57"
+      ],
+      "children": ["p10", "p11"]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "Geretrudis",
+        "✝17.III 659, um 644/658 Abt v Nivelles"
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "Aunulf"
+      ]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "Pippin der Mittlere",
+        "680 dux, 688 Hausmeier (prineipale regimine majorum domus) ✝Jupille 16.XI 714; ⚭ I um 670/75 Plektrudis, gründet St Maria im Kapitol zu Köln, urk 691/717 ▭ Köln St Maria im Kapitol Tv (Pfgf) Huogobert u Irmina v Oeren; ⚭ II Chalpaidis uror nobilis et elegans"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p12", "p13"]},
+        {"marker": "II", "children": ["p14"]},
+        {"marker": "aus der Verbindung mit NN:", "children": ["p15"]}
+      ]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "CHILDEBERT (III)",
+        "656/62 KONING der FRANKEN in AUSTRIEN ✝662"
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "Vulfetrudis",
+        "*(639/40) ✝23.XI 669 ▭ Nivelles 658/69 Abt von Nivelles"
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "Drogo",
+        "dux der Champagne, dann der Burgunder ✝708 ▭ Metz St Arnulf; ⚭ nach 688 Anstrudis Wwe v Berchar Hausmeier in Neustrien T v Waratto Hausmeier in Neustrien u Ansfled"
+      ],
+      "children": ["p16", "p17", "p18", "p19"]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "Grimoald",
+        "um 700 Hausmeier in Neustrien u Burgund ✝erschlagen St Lambert zu Lüttich ·IV 714; ⚭ Theudesinda Tv Radbod Fürst der Friesen"
+      ],
+      "children": [
+        {"marker": "aus der Verbindung mit NN:", "children": ["p20"]}
+      ]
+    },
+    {
+      "id": "p14",
+      "lines": [
+        "Karl Martell",
+        "(martellus - Hammer) 717 Hausmeier in Austrien, 718 im Gesamtreich ✝Quierzy 22.X 714 ▭ Saint-Denis ⚭ I Chrothrud 725✝; ⚭ II Swanahild illustris matrona,urk 725/41, Nichte v Hz Odilo v Bayern (__Agilofinger__)"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p21", "p22", "p23"]},
+        {"marker": "II", "children": ["p24"]},
+        {"marker": "aus der Verbindung mit NN:", "children": ["p25", "p26", "p27"]}
+      ]
+    },
+    {
+      "id": "p15",
+      "lines": [
+        "Childebrand",
+        "Graf in Burgund, der continuator Fredegarii ✝nach 751"
+      ],
+      "children": ["p28"]
+    },
+    {
+      "id": "p16",
+      "lines": [
+        "Arnulf",
+        "dux 715 ✝nach 723"
+      ]
+    },
+    {
+      "id": "p17",
+      "lines": [
+        "Hugo",
+        "715 sacerdos ✝730, Bf v Rouen"
+      ]
+    },
+    {
+      "id": "p18",
+      "lines": [
+        "Pippin",
+        "715"
+      ]
+    },
+    {
+      "id": "p19",
+      "lines": [
+        "Gottfried",
+        "715"
+      ]
+    },
+    {
+      "id": "p20",
+      "lines": [
+        "Theudoald",
+        "714/15 Hausmeier, 723 nepos v Karl Martell ✝(714)"
+      ]
+    },
+    {
+      "id": "p21",
+      "lines": [
+        "Karlmann",
+        "742/47 Hausmeier, dann Mönch zu Monte Soracte u Montecassino ✝Vienne in sanfter Gefangenschaft 17.VII 754 ▭ Montecassino"
+      ],
+      "children": ["p29", "p30"]
+    },
+    {
+      "id": "p22",
+      "lines": [
+        "PIPPIN der Jüngere",
+        "742 Hausmeier in Neustrien Burgund u Provence Soissons Ende 751 KÖNIG der FRANKEN (REX FRANCORUM) *714 ✝24.IX 768 ▭ Saint-Denis; ⚭ Bertrada (Berta) die Jüngere, 754 KÖNIGIN ✝12.VI 783 T v Heribert Gf v Laon Mitstifter v Prüm u Bertrada der Älteren Stifterin v Prüm"
+      ],
+      "children": ["p31", "p32", "p33", "p34", "p35", "p36"]
+    },
+    {
+      "id": "p23",
+      "lines": [
+        "Hiltrud",
+        "✝754 ⚭ 741 Odilo 736 Hz v Bayern (__Agilolfinger__) ✝748 ▭ Kl Gengenbach"
+      ]
+    },
+    {
+      "id": "p24",
+      "lines": [
+        "Grifo",
+        "*(726) ⚔ Saint-Jean de Maurienne 753"
+      ]
+    },
+    {
+      "id": "p25",
+      "lines": [
+        "Bernhard",
+        "*vor 732 urk 773 ✝787; ⚭ I eine Fränkin; ⚭ II eine Sächsin"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p37"]},
+        {"marker": "II", "children": ["p38", "p39", "p40", "p41"]}
+      ]
+    },
+    {
+      "id": "p26",
+      "lines": [
+        "Hieronymous",
+        "754"
+      ]
+    },
+    {
+      "id": "p27",
+      "lines": [
+        "Remedius/Remigius",
+        "✝771,755 Bf v Rouen"
+      ]
+    },
+    {
+      "id": "p28",
+      "lines": [
+        "Nibelung",
+        "Gf (in Burgund)"
+      ]
+    },
+    {
+      "id": "p29",
+      "lines": [
+        "Drogo",
+        "747/54"
+      ]
+    },
+    {
+      "id": "p30",
+      "lines": [
+        "KK",
+        "754 ins Kloster gesteckt"
+      ]
+    },
+    {
+      "id": "p31",
+      "lines": [
+        "KARL der GROSSE",
+        "768 fränk Teil-KÖNIG ·XII 771 Alleinherrscher: KÖNIG der FRANKEN",
+        "**Click to view next tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t4"
+      }
+    },
+    {
+      "id": "p32",
+      "lines": [
+        "KARLMANN",
+        "768 fränk Teil-KÖNIG 754 ✝Reims 4.XI 771; ⚭ Gerberga 772"
+      ],
+      "children": ["p42", "p43"]
+    },
+    {
+      "id": "p33",
+      "lines": [
+        "Gisela",
+        "*757 ✝810 788 Äbt v Chelles"
+      ]
+    },
+    {
+      "id": "p34",
+      "lines": [
+        "Pippin",
+        "*759 ✝761"
+      ]
+    },
+    {
+      "id": "p35",
+      "lines": [
+        "Rothaid",
+        "▭ Metz St Arnulf"
+      ]
+    },
+    {
+      "id": "p36",
+      "lines": [
+        "Adelheid",
+        "▭ Metz St Arnulf"
+      ]
+    },
+    {
+      "id": "p37",
+      "lines": [
+        "Adalhard",
+        "*(752) ✝Corbie 2.I 826 ▭ ibidem, 772 Mönch, um 781/814 u 821/26 Abt v Corbie, 822 auch Abt v Corvey,814/21 Mönch zu Noirmoutier"
+      ]
+    },
+    {
+      "id": "p38",
+      "lines": [
+        "Wala",
+        "Graf in Saschen, 811 Pfalzgraf 814 Mönch, 826/31 Abt v Corbie u auch v Corvey, 834/36 Abt v Bobbio *(773) ✝Bobbio 31.VIII 836 ▭ Bobbio Klosterkirche; ⚭ Rothlindis 814✝ T v Wilhelm v Gellone Gf v __Toulouse__ Mkgf v __Septimanien__"
+      ]
+    },
+    {
+      "id": "p39",
+      "lines": [
+        "Gundrada",
+        "814 nach Poitiers verbannt*(775) ✝nach 826"
+      ]
+    },
+    {
+      "id": "p40",
+      "lines": [
+        "Bernhar",
+        "790 puer *(776) 801 u 814 Mönch zu Lérin, 814 Mönch zu Corbie"
+      ]
+    },
+    {
+      "id": "p41",
+      "lines": [
+        "Theodrada",
+        "*nach 776,810 Äbt v ND de Soissons; ⚭ NN 810✝"
+      ]
+    },
+    {
+      "id": "p42",
+      "lines": [
+        "Pippin",
+        "770 ✝nach 772"
+      ]
+    },
+    {
+      "id": "p43",
+      "lines": [
+        "Kind",
+        "770 ✝nach 772"
+      ]
+    }
+  ]
+}
