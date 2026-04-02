@@ -1,0 +1,169 @@
+{
+  "id": "v1p1t5",
+  "name": "DIE KAROLINGER II, 881-887 und 896-899 KAISER, 882-911 KÖNIGE von OSTFRANKEN",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "Example source citation."
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "Ludwig II der DEUTSCHE",
+        "822/37 u 843/76 Könige von OSTFRANKEN ✝28.VIII 876",
+        "**Click to view previous tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t4"
+      },
+      "children": [
+        {"marker": "", "children": ["p3", "p4", "p5", "p6", "p7", "p8", "p9"]},
+        {"marker": "aus d Verbindung mit NN:", "children": ["p10"]}
+      ]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "Hildegard",
+        "*828 ✝23.XII 856 853 Äbt von Schwarzach am Main, 853/56 Äbt v Zürich"
+      ]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "KARLMANN",
+        "856 dux, 876 Kg v BAYERN 877 Kg v ITALIEN, 879 regierungsunfähig *(830) ✝29.XI 880; ⚭ vor 861 N ✝nach 8.VII 879 T v Gf Ernust"
+      ],
+      "children": [
+        "p11"
+      ]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "Ermengard (Irmgard)",
+        "✝Frauenwörth 16.VII 866 Äbt v Frauenwörth, 857 auch von Buchau"
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "Gisla"
+      ]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "LUDWIG III",
+        "865 Kg v FRANKEN SACHSEN u 1/2 LOTHRINGEN, 879 Kg v BAYERN, 880 Kg von LOTHRINGEN *(835) ✝Frankfurt/Main 20.I 882 ▭ Kl Lorsch; ⚭ vor 29.XI 874 Liutgard ✝17.oder 30.XI 885 ▭ Aschaffenburg T v Gf Liudolf (__Liudolfinger__)"
+      ],
+      "children": [
+        {"marker": "aus d Verbindung mit NN:", "children": ["p12"]},
+        {"marker": "ehelich", "children": ["p13"]},
+        {"marker": "", "children": ["p14"]}
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "Bertha",
+        "✝26.III 877 583 Abt v Schwarzach am Main, 856 Äbt v Zürich"
+      ]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "KARL III der DICKE",
+        "876 v ALEMANNIEN ·XI 879 Kg v ITALIEN, 12.II 881 KAISER, 882 Kg v OSTFRANKEN, 885 Kg v WESTFRANKEN, ·XI 887 abgesetzt *839 ✝Neudingen/Donan 13.I 888 ▭ Reichenau; ⚭ 862 Richardis, 887 Äbt v Andlau ✝18.IX (900) T v Gf Erchanger(__Ahalolfinger__)"
+      ]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "Bernhard",
+        "*(876) ✝getötet 891/92"
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "ARNULF von KÄRNTEN",
+        "876 Präfekt der östlichen Marken, ·XI 887 Kg v OSTFRANKEN, Ende II 896 KAISER *(850) ✝8.XII 899 ▭ Regensburg St Emmeran; ⚭ vor 888 Oda (__Konradinerin__) ✝nach 30.XI 903"
+      ],
+      "children": [
+        {"marker": "aus d Verbindung mit NN:", "children": ["p15"]},
+        {"marker": "Ellinrat ✝nach 23.V 914:", "children": ["p16"]},
+        {"marker": "aus d Verbindung mit NN:", "children": ["p17"]},
+        {"marker": "ehelich:", "children": ["p18"]}
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "Hugo",
+        "*(855/60) ✝·II 880"
+      ]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "Ludwig",
+        "*(877) ✝(·X) 879"
+      ]
+    },
+    {
+      "id": "p14",
+      "lines": [
+        "Hildegard",
+        "*878/81 ✝nach 895"
+      ]
+    },
+    {
+      "id": "p15",
+      "lines": [
+        "ZWENTIBOLD",
+        "·V 895 Kg v LOTHRINGEN *870/71 ✝13.VIII 900; ⚭ 27.III/13.VI 897 Oda v Sachsen ✝2.VII nach 592 T v Hz Otto dem Erlauchten (__Liudolfinger__) (⚭ II 900 Gerhard Graf (Matfride) ⚔ 22.VI 910)"
+      ],
+      "children": [
+        {"marker": "", "children": ["p19", "p20"], "uncertain": true}
+      ]
+    },
+    {
+      "id": "p16",
+      "lines": [
+        "Ellinrat",
+        "✝nach 24.V 914 entführt v Engelschalk 893 Mkgf der __Ostmark__ u geblendet"
+      ]
+    },
+    {
+      "id": "p17",
+      "lines": [
+        "Ratold",
+        "*(889),896 parvulus filius"
+      ]
+    },
+    {
+      "id": "p18",
+      "lines": [
+        "LUDWIG IV das KIND",
+        "Forchheim 4.II 900 Kg v OSTFRANKEN, ·III 900 auch in LOTHRINGEN *Altötting Herbst 893 ✝20.oder 24.IX 911"
+      ]
+    },
+    {
+      "id": "p19",
+      "lines": [
+        "Benedicta",
+        "Äbt v Süsteren"
+      ]
+    },
+    {
+      "id": "p20",
+      "lines": [
+        "Caecilie",
+        "Äbt v Süsteren"
+      ]
+    }
+  ]
+}

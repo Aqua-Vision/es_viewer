@@ -1,0 +1,453 @@
+{
+  "id": "v1p1t4",
+  "name": "DIE KAROLINGER I, 800-877 KAISER, 768-877 KÖNIGE DER FRANKEN",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "Example source citation."
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "KARL der GROSSE",
+        "768 fränk Teil-KÖNIG, ·XII 871 Allenherrscher: KÖNIG der FRANKEN, ·VI 774 KÖNIG der LANGOBARDEN, Rom 25.XI 800 Kaiser *(2.IV 747) ✝28.I 814 ▭ Aachen Pfalzkapelle; ⚭ I 769 N verstessen 770/Anfang 771, T v Desiderius Kg der __Langobarden__; ⚭ II 771 vor 30.IV Hildegard *758 ✝30.IV 783 T v Gerold u Imma t des alemannischen dux Hnabi; ⚭ III um ·X 783 Fastrada ✝10.VIII 794 T v Gf Radulf; ⚭ IV 794/Herbst 796 Liutgard (Alemmannin) ✝4.VI 800",
+        "**Click to view previous tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t3"
+      },
+      "children": [
+        {"marker": "Himiltrud um 768", "children": ["p5"]},
+        {"marker": "II", "children": ["p6", "p6_1", "p6_2", "p7", "p8", "p9", "p10", "p11", "p12"]},
+        {"marker": "NN", "children": ["p13"]},
+        {"marker": "III", "children": ["p14", "p15"]},
+        {"marker": "Madelgard", "children": ["p16"]},
+        {"marker": "Gerswind Saxonici generis", "children": ["p17"]},
+        {"marker": "Regina 800", "children": ["p18", "p19"]},
+        {"marker": "Adalind 806", "children": ["p20"]}
+      ]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "Pippin d Bucklige",
+        "*vor 770 ✝811,792 Mönch zu Prüm"
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "KARL der Jüngere",
+        "788 Kg in NEUSTRIEN *772/73 ✝4.XII 811"
+      ]
+    },
+    {
+      "id": "p6_1",
+      "lines": [
+        "Adalhaid",
+        "*·IX 773 /·VI 774 ✝ Südgalien ·VII/VIII 774"
+      ]
+    },
+    {
+      "id": "p6_2",
+      "lines": [
+        "Rotrud",
+        "*(775) ✝6.VI 810"
+      ]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "Karlmann",
+        "~ Rom 15.IV 781 als PIPPIN, 781 Kg v ITALIEN *777 ✝8.VII 810 ▭ Mailand; ⚭ um 795 NN"
+      ],
+      "children": [
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25"
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "LUDWIG I der FROMME",
+        "781 Kg v AQUITANIEN Aachen 11.IX 813 Mit-KAISER, 30.VI 833/1.III 834 abgesetzt *Chasseneuil b Poitiers ·VI/VIII 778 ✝b Ingelheim 20.VI 840 ▭ Metz St Arnulf; ⚭ I 794 Ermengard ✝3.X 818 T v Gf Ingram; ⚭ II Aachen 819 Judith ✝19.IV 843 ▭ Tours St-Martin T v Gf __Welf__ u Heilwich"
+      ],
+      "children": [
+        {"marker": "NN", "children": ["p26"]},
+        {"marker": "I", "children": ["p27", "p28", "p29", "p30", "p31", "p32"]},
+        {"marker": "II", "children": ["p33", "p34"]}
+      ]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "Lothar",
+        "Chasseneuil b Poitiers ·VI/VIII 778"
+      ]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "Bertha",
+        "779/80 814 vom Hofe verwiesen ✝nach 14.I 828"
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "Gisla",
+        "*781 vor ·V ✝nach 800 (814)"
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "Hildegard",
+        "*782 nach 8.VI ✝·VI 783 vor 8."
+      ]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "Hruodhaid",
+        "*(787) ✝nach 800 (814)"
+      ]
+    },
+    {
+      "id": "p14",
+      "lines": [
+        "Theodrada",
+        "zu K1.SCHWARZACH am Main *(785) ✝9.1 844/853 vor 814 Äbt v Argenteuil"
+      ]
+    },
+    {
+      "id": "p15",
+      "lines": [
+        "Hiltrud",
+        "*(787) ✝nach 800 (814)"
+      ]
+    },
+    {
+      "id": "p16",
+      "lines": [
+        "Ruothild",
+        "✝24.III 852,840 Abt v Faremoutiers"
+      ]
+    },
+    {
+      "id": "p17",
+      "lines": [
+        "Adalthrud"
+      ]
+    },
+    {
+      "id": "p18",
+      "lines": [
+        "Drogo",
+        "*17.VI 801 ✝8.XII 855 818 geistl, 820 Abt v Luxeuil 823 Bf v Metz, 834 Ebf u Erzkapellan"
+      ]
+    },
+    {
+      "id": "p19",
+      "lines": [
+        "Hugo",
+        "*802/06 ✝14.VI 844,818 geistl, Mönch zu Charroux, 822/23 Abt v St-Quentin, 836 Abt v St-Bertin, 834/40 Erzkanzler v Ks Ludwig I dem Frommen"
+      ]
+    },
+    {
+      "id": "p20",
+      "lines": [
+        "Theoderich",
+        "*807 ✝nach 818,818 geistlich"
+      ]
+    },
+    {
+      "id": "p21",
+      "lines": [
+        "BERNHARD",
+        "812-813 Kg v ITALIEN erhebt sich 817 gegen Ludwig I 15.IV 818 geblendet *(797) ✝17.IV 818; ⚭ um 815 Kunigund ✝nach 15.VI 835"
+      ],
+      "children": [
+        "p35"
+      ]
+    },
+    {
+      "id": "p22",
+      "lines": [
+        "Adalhaid",
+        "(800/810) ✝nach 810"
+      ]
+    },
+    {
+      "id": "p23",
+      "lines": [
+        "Gundrada",
+        "(800/810) ✝nach 810"
+      ]
+    },
+    {
+      "id": "p24",
+      "lines": [
+        "Berthaid",
+        "(800/810) ✝nach 810"
+      ]
+    },
+    {
+      "id": "p25",
+      "lines": [
+        "Theodrada",
+        "(800/810) ✝nach 810"
+      ]
+    },
+    {
+      "id": "p26",
+      "lines": [
+        "Alpais/Elpheid",
+        "als Wwe Äbt v St-Piere-le-Bas zu Reims *(794) ✝23.VIII... (nach 29.V 852); ⚭ um 806 Bego Graf ✝28.X 816"
+      ]
+    },
+    {
+      "id": "p27",
+      "lines": [
+        "Arnulf",
+        "817 GRAF v SENS *(794) ✝nach ·III/IV 841"
+      ]
+    },
+    {
+      "id": "p28",
+      "lines": [
+        "LOTHAR I",
+        "·VIII 814 Kg v BAYERN ·VII 817 Mit-KAISER, Ostern 823 als Kaiser, 822/25 u 829/40 HERRSCHER in ITALIEN, 30.VI 883/1.III 834 u 20.VI 840/·IX 855 KAISER, 843 in LOTHRINGEN, dankt ab *795 ✝Tals Möneh in Prüm 29.IX 855 ▭ Prüm; ⚭ Diedenhofen Mitte X 821 Ermengard ✝20.III 851 ▭ Abtei Erstein, die sie 849 stiftete, T v Gf Hugo v Tours (__Etichonen__)"
+      ],
+      "children": [
+        {"marker": "", "children": ["p36", "p37", "p38", "p39", "p40", "p53", "p54", "p55"]},
+        {"marker": "Doda ·IV 851 ✝nach 9.VII 855", "children": ["p56"]}
+      ]
+    },
+    {
+      "id": "p29",
+      "lines": [
+        "PIPPIN I",
+        "·VIII 814 Kg v AQUITANIEN *(797) ✝(13.) XII 838 ▭ Ste-Croix de Poitiers; ⚭ 822 Ringart (Hringard)/Ingeltrud T v Gf Teudbert v __Madrie__"
+      ],
+      "children": [
+        "p45",
+        "p46"
+      ]
+    },
+    {
+      "id": "p30",
+      "lines": [
+        "Rotrud",
+        "*(800)"
+      ]
+    },
+    {
+      "id": "p31",
+      "lines": [
+        "Hildegard",
+        "*(802/04) ✝nach ·X 841 (23.VIII 860), Äbt v Notre-Dame (zu Laon)"
+      ]
+    },
+    {
+      "id": "p32",
+      "lines": [
+        "LUDWIG II der DEUTSCHE",
+        "817 Kg v BAYERN, 822/37 u 843/76 Kg v OSTFRANKEN *(805) ✝Frankfurt/Main 28.VIII 876 ▭ Kl Lorsch; ⚭ 827 Hemma ✝31.I 876 ▭ Regensburg St Emmeran Tv Gf __Welf__ u Heilwich",
+        "**Click to view next tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t5"
+      }
+    },
+    {
+      "id": "p33",
+      "lines": [
+        "Gisla",
+        "*Ende 819/22 ✝nach ·VIII 874; ⚭ um 847 Eberhard dux (Mkgf) v Friaul (__Unrouchinger__) ✝Itafeln 16.XII 866 ▭ beide Cysoing"
+      ]
+    },
+    {
+      "id": "p34",
+      "lines": [
+        "KARL (CHARLES) der KAHLE (le CHAUVE)",
+        "·VIII 829 dux ALEMANNIAE, ·IX 838 Kg v NEUSTRIEN, 843 Kg v WESTFRANKEN, 848 Kg v AQUITANIEN, 869 Kg v LOTHRINGEN, 875 Kg v ITALIEN, Rom 25.XII 875 KAISR *Frankfurt/Main 13.VI 823 ✝Avrieux, Savoie 6.X 877 ▭ Nantua, dann Saint-Denis; ⚭ I 13.XI 842 Ermentrud *27.IX (830) ✝Saint-Denis 6.X 869 T v Gf Odo (v Orléans) u Ingeltrud; ⚭ II 22.I 870 Richildis v __Metz__ ✝910/14 Tv Gf __Buvinus__",
+        "**Click to view next tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t6"
+      }
+    },
+    {
+      "id": "p35",
+      "lines": [
+        "Pippin",
+        "nach 834 GRAF bei Paris *(815) ✝nach 840; ⚭ NN"
+      ],
+      "children": [
+        "p47",
+        "p48",
+        "p49"
+      ]
+    },
+    {
+      "id": "p36",
+      "lines": [
+        "LUDWIG II",
+        "839/40 (Tit-) Kg v ITALIEN, ·IV 850 Mit-KAISER, 855 KAISER, 844 Kg der LANGOBARDEN *(825) ✝12.VIII 875; ⚭ (verlobt 851 vor 5.X) Engelberga ✝896/901, 868 Abt v S.Salvatore zu Brescis, 896 Abt v S.Sisto su Piacenza"
+      ],
+      "children": [
+        "p50",
+        "p51"
+      ]
+    },
+    {
+      "id": "p37",
+      "lines": [
+        "Helletrud (Hiltrud)",
+        "*(826) ✝nach 865/66 ⚭ Berengar Graf 865/66✝"
+      ]
+    },
+    {
+      "id": "p38",
+      "lines": [
+        "Bertha",
+        "*(830) ✝nach 7.V 852(877), vor 847 Äbt v Avenay (Äbt v Faremoutiers)"
+      ]
+    },
+    {
+      "id": "p39",
+      "lines": [
+        "Tochter",
+        "*(826/30) entführt Ene 849 anerkannt mit Giselbert 841 Gf im Maasgau (__Reignare__), 866 Gf im Lommegan (✝nach 14.VI 877)"
+      ]
+    },
+    {
+      "id": "p40",
+      "lines": [
+        "Gisla",
+        "*(830) ✝860,851/60 Abt v S.Salvatore zu Brescia"
+      ]
+    },
+    {
+      "id": "p45",
+      "lines": [
+        "PIPPIN II",
+        "838/48 Kg v AQUITANIEN, 852/54 u 864 in Haft *(823) ✝Senlis nach 864"
+      ]
+    },
+    {
+      "id": "p46",
+      "lines": [
+        "Karl",
+        "*(825/30) ✝4.VI 863 851/54 im Kloster, 8.III 856 Ebf v Mainz"
+      ]
+    },
+    {
+      "id": "p47",
+      "lines": [
+        "Bernhard",
+        "*(845) 877/78 Graf"
+      ]
+    },
+    {
+      "id": "p48",
+      "lines": [
+        "Pippin",
+        "nach 877 Graf nördlich v Paris *(845) ✝nach 28.I 893"
+      ]
+    },
+    {
+      "id": "p49",
+      "lines": [
+        "HERIBERT I",
+        "886/98 GRAF v SOISSONS u Abt v St-Crépin, 888/889 Gf von MEAUX u MADRIE, 896 GRAF v VERMANDOIS ✝6.XI 900-907",
+        "**Click to view next tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t7"
+      }
+    },
+    {
+      "id": "p50",
+      "lines": [
+        "Gisla",
+        "*(852/55) 28.IV 868✝ 861 Äbt v S.Salvatore zu Brescia"
+      ]
+    },
+    {
+      "id": "p51",
+      "lines": [
+        "Ermengard",
+        "878 Abt v S.Salvatore zu Brescia *(852/55) ✝896 vor 22.VI; ⚭ ·III/VI 876 Boso v Vienne (__Buvinus__) 876 Dux v Italien, 877 Gf von Troyes, 15.X 897 KÖNIG ✝11.I 887 ▭ Vienne St-Maurice"
+      ]
+    },
+    {
+      "id": "p53",
+      "lines": [
+        "LOTHAR II",
+        "855 Kg v LOTHRINGEN *(835) ✝Piacenza 8.VIII 869 ▭ Kl St Antonin bei Piacenza; ⚭ I 855 Teutberga Äbt v Ste-Glossinde zu Metz 869, 25.XI 875✝ Tv Boso Gf v __Arles__; ⚭ II 862 (kirchlich nicht anerkannt) Waldrada ✝als Nonne zu Remiremont nach 9.IV 868"
+      ],
+      "children": [
+        {"marker": "II", "children": ["p57", "p58", "p59", "p60"]}
+      ]
+    },
+    {
+      "id": "p54",
+      "lines": [
+        "Rotrud",
+        "~ Pavia 835/40; ⚭ um 850/51 Lambert Mkgf der Bretagne Gf v Nantes (__Widonen__) ⚔ 1.V 852"
+      ]
+    },
+    {
+      "id": "p55",
+      "lines": [
+        "KARL",
+        "855 Kg in BURGUND *(845) ✝St-Pierre-les-Nonnains de Lyon 25.I 863"
+      ]
+    },
+    {
+      "id": "p56",
+      "lines": [
+        "Karlmann",
+        "*853"
+      ]
+    },
+    {
+      "id": "p57",
+      "lines": [
+        "Hugo",
+        "867 Hz v ELSASS ·VI 885 geblendet, Mönch zu Prüm *vor 863 ✝nach 895; ⚭ 883 Friderada Wwe v Bernarius"
+      ]
+    },
+    {
+      "id": "p58",
+      "lines": [
+        "Gisla",
+        "887/907 Äbt v Nivelles u Fosses *(860/65) ✝21.V/26.X 907; ⚭ 882 Gottfried (Däne) Hz in Friesland erm ·VI 885"
+      ]
+    },
+    {
+      "id": "p59",
+      "lines": [
+        "BERTHA",
+        "915 REGENTIN *(863) ✝8.III 925 ⚭ I 879/81 Theotbald Gf v __Arles__ ✝·VI 887/um 895; ⚭ II 895/898 Adalbert (II) der Reiche Gf u Hz v Lucca u Mkgf v __Tuscien__ (Bonifacius) ✝10/19.IX 915 ▭ Lucca Kathedrale"
+      ]
+    },
+    {
+      "id": "p60",
+      "lines": [
+        "Ermengard",
+        "✝6.VIII... ▭ Lucca Santa Giustina Nonne"
+      ]
+    }
+  ]
+}

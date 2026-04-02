@@ -523,6 +523,20 @@ function createCanvasViewer(tree) {
     }
   };
 
+  const onTextLayerCopy = (event) => {
+    const selection = window.getSelection();
+    if (!selection || selection.isCollapsed) {
+      return;
+    }
+
+    if (!isSelectionInside(textLayer, selection)) {
+      return;
+    }
+
+    event.preventDefault();
+    event.clipboardData.setData("text/plain", selection.toString().replace(/\uFE0E/g, ""));
+  };
+
   const onWheel = (event) => {
     event.preventDefault();
 
@@ -544,6 +558,7 @@ function createCanvasViewer(tree) {
   canvas.addEventListener("pointercancel", onPointerUp);
   canvas.addEventListener("wheel", onWheel, { passive: false });
   textLayer.addEventListener("click", onTextLayerClick);
+  textLayer.addEventListener("copy", onTextLayerCopy);
 
   document.getElementById("zoomInBtn").onclick = () => zoomBy(state, 1.15);
   document.getElementById("zoomOutBtn").onclick = () => zoomBy(state, 0.87);
@@ -564,9 +579,23 @@ function createCanvasViewer(tree) {
       canvas.removeEventListener("pointercancel", onPointerUp);
       canvas.removeEventListener("wheel", onWheel);
       textLayer.removeEventListener("click", onTextLayerClick);
+      textLayer.removeEventListener("copy", onTextLayerCopy);
       window.removeEventListener("resize", resize);
     }
   };
+}
+
+function isSelectionInside(container, selection) {
+  return isNodeInside(container, selection.anchorNode) || isNodeInside(container, selection.focusNode);
+}
+
+function isNodeInside(container, node) {
+  if (!container || !node) {
+    return false;
+  }
+
+  const element = node.nodeType === Node.TEXT_NODE ? node.parentNode : node;
+  return container.contains(element);
 }
 
 function computeLayout(tree, ctx) {
@@ -1145,7 +1174,7 @@ function renderTextOverlay(state) {
       parts.forEach((part) => {
         const partElement = document.createElement("span");
         partElement.className = `tree-text-part${part.underline ? " is-underlined" : ""}${part.bold ? " is-bold" : ""}`;
-        partElement.textContent = part.text;
+        partElement.textContent = withTextPresentation(part.text);
         lineElement.appendChild(partElement);
       });
 
@@ -1156,6 +1185,10 @@ function renderTextOverlay(state) {
   });
 
   textLayer.replaceChildren(fragment);
+}
+
+function withTextPresentation(text) {
+  return String(text || "").replace(/[\u2190-\u21FF\u2300-\u23FF\u2460-\u24FF\u2600-\u27BF\u2B00-\u2BFF]/gu, "$&\uFE0E");
 }
 
 function renderSources(tree) {

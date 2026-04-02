@@ -254,6 +254,10 @@ button:hover, .tree-link:hover {
   color: #5c4d3e;
 }
 
+.editor-error {
+  color: #8b2f2f;
+}
+
 .editor-textarea {
   width: 100%;
   box-sizing: border-box;
@@ -262,6 +266,15 @@ button:hover, .tree-link:hover {
   background: #fbf7ef;
   font: 13px/1.4 Consolas, "Courier New", monospace;
   resize: vertical;
+}
+
+.editor-text-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #c7b395;
+  background: #fbf7ef;
+  font: 13px/1.4 Consolas, "Courier New", monospace;
 }
 
 .editor-json-preview {

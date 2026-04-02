@@ -1,0 +1,42 @@
+{
+  "id": "example-simple",
+  "name": "Simple Example Tree",
+  "sources": [
+    "Example source citation."
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "Founder",
+        "d 800"
+      ],
+      "children": [
+        { "marker": "I", "children": ["p2"] },
+        { "marker": "II", "children": ["p3"], "uncertain": true }
+      ]
+    },
+    {
+      "id": "p2",
+      "lines": [
+        "Elder Child",
+        "d 830"
+      ],
+      "children": ["p4"]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "Younger Child",
+        "d 835"
+      ]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "Grandchild",
+        "d 860"
+      ]
+    }
+  ]
+}

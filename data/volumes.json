@@ -18,6 +18,16 @@
           "id": "v1p1t3",
           "name": "Tafel 3 - Die ARNULFINGER - 751-771 KÖNIGE der FRANKEN - und die Familie Pippin's des Älteren",
           "file": "data/trees/v1p1t3.json"
+        },
+        {
+          "id": "v1p1t4",
+          "name": "Tafel 4 - DIE KAROLINGER I, 800-877 KAISER, 768-877 KÖNIGE DER FRANKEN",
+          "file": "data/trees/v1p1t4.json"
+        },
+        {
+          "id": "v1p1t5",
+          "name": "Tafel 5 - DIE KAROLINGER II, 881-887 und 896-899 KAISER, 882-911 KÖNIGE von OSTFRANKEN",
+          "file": "data/trees/v1p1t5.json"
         }
       ]
     }
