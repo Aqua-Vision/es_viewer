@@ -6,4 +6,4 @@ Detlev Schwennicke passed away in 2012 and Europäische Stammtafeln has become a
 
 Like any series, Europäische Stammtafeln has mistakes. For the purpose of this project, mistakes in the book series are not to be corrected. This is to preserve the original content in the series. If you wish to discuss the project, you can join my Discord server [here](https://discord.gg/9zDBhSbDmB) or you can directly send me an email [here](mailto:radistanislav63@gmail.com).
 
-Due to the book being in German, it may be hard for some English viewers to understand. John P DuLong creates an extremely useful key [here](https://habitant.org/tools/esnotes.htm) to the book and its information. There is also a copy of the book’s abbreviations on the same page there.
+Due to the book being in German, it may be hard for some English viewers to understand. John P DuLong creates an extremely useful key [here](https://habitant.org/tools/eskey.htm) to the book and its information. There is also a copy of the book’s abbreviations on the same page there.

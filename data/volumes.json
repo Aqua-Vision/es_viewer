@@ -6,37 +6,37 @@
       "trees": [
         {
           "id": "v1p1t1",
-          "name": "Tafel 1 - Die MEROWINGER I",
+          "name": "Tafel 1 - Die **MEROWINGER** I",
           "file": "data/trees/v1p1t1.json"
         },
         {
           "id": "v1p1t2",
-          "name": "Tafel 2 - Die MEROWINGER II",
+          "name": "Tafel 2 - Die **MEROWINGER** II",
           "file": "data/trees/v1p1t2.json"
         },
         {
           "id": "v1p1t3",
-          "name": "Tafel 3 - Die ARNULFINGER - 751-771 KÖNIGE der FRANKEN - und die Familie Pippin's des Älteren",
+          "name": "Tafel 3 - Die **ARNULFINGER** - 751-771 KÖNIGE der FRANKEN - und die Familie Pippin's des Älteren",
           "file": "data/trees/v1p1t3.json"
         },
         {
           "id": "v1p1t4",
-          "name": "Tafel 4 - DIE KAROLINGER I, 800-877 KAISER, 768-877 KÖNIGE DER FRANKEN",
+          "name": "Tafel 4 - Die **KAROLINGER** I, 800-877 KAISER, 768-877 KÖNIGE DER FRANKEN",
           "file": "data/trees/v1p1t4.json"
         },
         {
           "id": "v1p1t5",
-          "name": "Tafel 5 - DIE KAROLINGER II, 881-887 und 896-899 KAISER, 882-911 KÖNIGE von OSTFRANKEN",
+          "name": "Tafel 5 - Die **KAROLINGER** II, 881-887 und 896-899 KAISER, 882-911 KÖNIGE von OSTFRANKEN",
           "file": "data/trees/v1p1t5.json"
         },
         {
           "id": "v1p1t6",
-          "name": "Tafel 6 - DIE KAROLINGER III, KÖNIGE von WESTFRANKEN 877-986, HERZOGE von NIEDERLOTHRINGEN 978-1012",
+          "name": "Tafel 6 - Die **KAROLINGER** III, KÖNIGE von WESTFRANKEN 877-986, HERZOGE von NIEDERLOTHRINGEN 978-1012",
           "file": "data/trees/v1p1t6.json"
         },
         {
           "id": "v1p1t7",
-          "name": "Tafel 7 - DIE KAROLINGER IV, GRAFEN von VERMANDOIS 896-1085",
+          "name": "Tafel 7 - Die **KAROLINGER** IV, GRAFEN von VERMANDOIS 896-1085",
           "file": "data/trees/v1p1t7.json"
         }
       ]

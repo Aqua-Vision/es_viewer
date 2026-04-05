@@ -17,7 +17,7 @@ function renderVolumes() {
 
   DATA.volumes.forEach((volume) => {
     const btn = document.createElement("button");
-    btn.textContent = volume.title;
+    btn.replaceChildren(buildInlineFormattedLabel(volume.title));
     btn.onclick = () => renderTrees(volume);
     container.appendChild(btn);
   });
@@ -31,8 +31,37 @@ function renderTrees(volume) {
   volume.trees.forEach((tree) => {
     const link = document.createElement("a");
     link.className = "tree-link";
-    link.textContent = tree.name;
+    link.replaceChildren(buildInlineFormattedLabel(tree.name));
     link.href = `viewer.html?volume=${encodeURIComponent(volume.id)}&tree=${encodeURIComponent(tree.id)}`;
     container.appendChild(link);
   });
+}
+
+function buildInlineFormattedLabel(text) {
+  const fragment = document.createDocumentFragment();
+  const value = String(text || "");
+  const pattern = /(\*\*.+?\*\*)/g;
+  let lastIndex = 0;
+  let match = null;
+
+  while ((match = pattern.exec(value)) !== null) {
+    if (match.index > lastIndex) {
+      fragment.appendChild(document.createTextNode(value.slice(lastIndex, match.index)));
+    }
+
+    const strong = document.createElement("strong");
+    strong.textContent = match[0].slice(2, -2);
+    fragment.appendChild(strong);
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < value.length) {
+    fragment.appendChild(document.createTextNode(value.slice(lastIndex)));
+  }
+
+  if (!fragment.childNodes.length) {
+    fragment.appendChild(document.createTextNode(value));
+  }
+
+  return fragment;
 }

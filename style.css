@@ -308,6 +308,10 @@ button:hover, .tree-link:hover {
   text-decoration: none;
 }
 
+.inline-bold {
+  font-weight: 700;
+}
+
 @media (max-width: 960px) {
   .topbar {
     align-items: flex-start;
