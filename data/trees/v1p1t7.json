@@ -25,8 +25,13 @@
       "id": "p1",
       "lines": [
         "HERIBERT I",
-        "I,886/98 GRAF von SOISSONS u Abt v St-Crépin, 888/89 GRAF von MEAUX,896 GRAF von VERMANDOIS *(850) 877 am Hofe Karl's II ✝6.XI 900-907"
+        "I,886/98 GRAF von SOISSONS u Abt v St-Crépin, 888/89 GRAF von MEAUX,896 GRAF von VERMANDOIS *(850) 877 am Hofe Karl's II ✝6.XI 900-907",
+        "**Click to view previous tree**"
       ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t4"
+      },
       "children": [
         "p3",
         "p4",

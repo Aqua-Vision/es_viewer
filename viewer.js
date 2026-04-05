@@ -32,9 +32,7 @@ async function renderSelectedTree() {
   const response = await fetch(treeMeta.file);
   const treeData = await response.json();
 
-  document.getElementById("treeTitle").replaceChildren(
-    buildInlineFormattedLabel(treeMeta.name || treeData.name || treeId)
-  );
+  document.getElementById("treeTitle").textContent = treeMeta.name || treeData.name || treeId;
 
   if (VIEWER) {
     VIEWER.destroy();
@@ -1211,35 +1209,6 @@ function renderSources(tree) {
   `;
 }
 
-function buildInlineFormattedLabel(text) {
-  const fragment = document.createDocumentFragment();
-  const value = String(text || "");
-  const pattern = /(\*\*.+?\*\*)/g;
-  let lastIndex = 0;
-  let match = null;
-
-  while ((match = pattern.exec(value)) !== null) {
-    if (match.index > lastIndex) {
-      fragment.appendChild(document.createTextNode(value.slice(lastIndex, match.index)));
-    }
-
-    const bold = document.createElement("span");
-    bold.className = "inline-bold";
-    bold.textContent = match[0].slice(2, -2);
-    fragment.appendChild(bold);
-    lastIndex = match.index + match[0].length;
-  }
-
-  if (lastIndex < value.length) {
-    fragment.appendChild(document.createTextNode(value.slice(lastIndex)));
-  }
-
-  if (!fragment.childNodes.length) {
-    fragment.appendChild(document.createTextNode(value));
-  }
-
-  return fragment;
-}
 
 function renderSource(source) {
   return `

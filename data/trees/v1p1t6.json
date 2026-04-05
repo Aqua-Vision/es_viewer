@@ -24,8 +24,13 @@
       "id": "p1",
       "lines": [
         "KARL II der KAHLE",
-        "838 Kg (v NEUSTRIEN), 840/43 Kg v WESTFRANKEN, 869 Kg v ITALIEN, ·IX 875 Kg v LOTHRINGEN, 25.XII 875 KAISER ✝6.X 877"
+        "838 Kg (v NEUSTRIEN), 840/43 Kg v WESTFRANKEN, 869 Kg v ITALIEN, ·IX 875 Kg v LOTHRINGEN, 25.XII 875 KAISER ✝6.X 877",
+        "**Click to view previous tree**"
       ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t4"
+      },
       "children": [
         {"marker": "I", "children": ["p3", "p4", "p5", "p6", "p7", "p8", "p9", "p10", "p11"]},
         {"marker": "II", "children": ["p12", "p13", "p14", "p15", "p16"]}
