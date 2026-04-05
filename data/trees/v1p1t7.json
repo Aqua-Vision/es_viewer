@@ -1,0 +1,223 @@
+{
+  "id": "v1p1t7",
+  "name": "DIE KAROLINGER IV, GRAFEN von VERMANDOIS 896-1085",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "1. Eduard Hlawitschka, Die Vorfahren Karls des Grossen, in: Wolfgang Braunfels, hgg v, Karl der Grosse Lebenswerk und Nachleben Band 1: Persönlichkeit und Geschichte, hgg v Hellmut Beumann, Düsseldorf 1965, pp 51 - 82",
+    "2. Karl August Eckhardt, Merowingerblut 1 Die Karolinger und ihre Frauen, Witzenhausen 1965, pp 12 - 73",
+    "3. idem, Studia Merovingica, Aalen 1976, besonders pp 118-130 zu Hausmeier Theudoald (- Bibliotheca rerum historicarum 11)",
+    "4. Eduard Hlawitschka, Studien zur Genealogie und Geschichte der Merowinger und frühen Karolinger, in: Rheinische Vierteljahresblätter 43.1979, pp 1 - 99",
+    "5. Karl Ferdinand Werner, Die Nachkommen Karls des Grossen bis um das Jahr 1000 (1.-8. Generation), in: Wolfgang Braunfels, hgg v, Karl der Grosse, Lebenswerk und Nachleben Band IV; Das Nachleben hgg v Wolfgang Braunfels und Percy Ernst Schramm, Düssekdirg 1967, pp 403-482",
+    "6. Eduard Hlawitschka, Zu den Grundlagen des Aufstiegs der Karolinger, in: Rheinische Vierteljahresblätter 49, 1985, pp 1 - 61",
+    "7. idem, Die Anfänge des Hauses Habsburg-Lothringen. Searbrücken 1969, pp 58 ss",
+    "8. Lexikon des Mittelalters 1-VII, München-Zürich 1977-1984, passim",
+    "9. Pierre Riché, Die Karolinger Eine Familie formt Europa, Stuttgart 1987",
+    "10. ingrid Heidrich, Titulatur und Urkunden der arnulfingischen Hausmeier, in: Archiv für Diplomatik 11/12.Band, 1965/66, pp 71 - 279",
+    "11. Lorenz Weinrich, Walo Graf, Mönch und Rebell, Lübeck und Hamburg 1963 (-Karolingische Studien Heft 386)",
+    "12. Brigitte Kasten, Adalhard von Corbie, Düsseldorf 1986 (-Studia humanoria Düsseldorfer Studien zu Mittelalter und Renaissance Band 3)",
+    "13. Rudolf Schieffer, Karolingische Töchter, in: Herrschaft, Kirche, Kulter Beiträge zur Geschichte des Mittelalters Festchrift für Friedrich Prinz zu seinem 65. Geburtstag, hgg v Georg Jenal unter Mitwirkung von Stephanie Haarländer, Stuttgart 1993, pp 124-139",
+    "14. vergleiche die Europäische Stammtafeln NF III,1 zu Tf 49 angegbene Literatur; dazu noch: William Mendel Newman, The Cartulary and Charters of Notre-Dame de Homblières, Cambridge, Mass. 1990, Nr 9, 20, 23, 25, 30"
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "HERIBERT I",
+        "I,886/98 GRAF von SOISSONS u Abt v St-Crépin, 888/89 GRAF von MEAUX,896 GRAF von VERMANDOIS *(850) 877 am Hofe Karl's II ✝6.XI 900-907"
+      ],
+      "children": [
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "HERIBERT II",
+        "900-907 Gf v MEAUX SOISSONS u VERMANDOIS 907 Abt v St-Médard zu Soissons *(880) ✝23.11 943 ▭ Saint-Quentin; ⚭ vor 21.V 907 Adela T v Hz Robert v Neustrien (__Capet__)"
+      ],
+      "children": [
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13"
+      ]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "Beatrix",
+        "*(886) ✝nach 26.III 931 ⚭ um 895 Robert Hz v Neustrien 898 Gf v Paris, 29.IV 922 Kg von __Westfranken__ (Capet) ⚔ bei Soissons 15.VI 923"
+      ]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "Tochter",
+        "(Gebhard Gf im Ufgau 940 (__Konradiner__) ✝nach 15.I 947)"
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "Tochter",
+        "⚭ Udo Gf v der Wetterau (__Konradiner__) ✝949"
+      ]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "ODO",
+        "Ende 928 GRAF von VIENNE/944 GRAF von AMIENS vertrieben (910) urk 927 ✝nach 19.VI 946"
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "Adela",
+        "*910/15 ✝960 ⚭ 934 Arnulf I d Gr 918 Gf v __Flandern__ ✝27.III 964"
+      ]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "HERIBERT d Alte",
+        "d Alte *(910/15) 946 Abt v St-Médard zu Soissons u GRAF in Nordfrankreich, Ende 967 Gf v MEAUX u PFALZGRAF, 968 GRAF V TROYES ✝980/984; ⚭ 951 Ogiva Wwe v Karl III dem Einfältigen Kg v Westfranken/951 Abt v ND de Laon T v Eduard I Kg v __Wessex__"
+      ]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "ROBERT",
+        "ROBERT 946 Gf v MEAUX, 956 auch GRAF von TROYES *(910/15) ✝19/29.VIII 967; ⚭ vor 950 Adelheid (Werra) ✝nach VIII 967 T v Giselbert Hz v Burgund (vide Buviniden) Gf v Chalon u Troyes"
+      ],
+      "children": [
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "ADALBERTI (ALBERT)",
+        "946 Gf v VERMANDOIS *(915) ✝8.IX 987; ⚭ vor 954 Gerberga *(935) ✝nach 7.IX 978 T v Giselbert Hz v __Lothringen__ (Reginare)"
+      ],
+      "children": [
+        "p17",
+        "p18",
+        "p19"
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "Ledgard",
+        "Ledgard (915/20) ✝27.V nach 9.11 978 ⚭ I um 940 Wilhelm I Gf v __Normandie__ gt Langschwert erm Pecquigny sur-Somme 17.XII 942; ⚭ II 942/45 Tetbald I Gf v __Blois__ u Chartres Vcte de Tours ✝16.I 975"
+      ]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "Hugo",
+        "Hugo *920 ✝962 925 Ebf v Reims 932 vertrieben 940 rstituiert 946 abgesetzt"
+      ]
+    },
+    {
+      "id": "p14",
+      "lines": [
+        "HERIBERT der Jüngere",
+        "980-984 Gf v MEAUX u TROYES *(950) ✝28.I 995 ⚭ NN urk 959"
+      ],
+      "children": [
+        "p16"
+      ]
+    },
+    {
+      "id": "p15",
+      "lines": [
+        "Adela 974 ✝nach 6.III ⚭ vor 966 Gauzfred (Geoffroi) Grisegonelle Gf v __Anjou__ ✝21.VII 987"
+      ]
+    },
+    {
+      "id": "p16",
+      "lines": [
+        "ETIENNE",
+        "um 995 Cte de MEAUX et de TROYES ✝1.VI 1019/9. VI 1021 abbaye de Lagny-en-Mussien; ⚭ vor 29.II 996 Alix"
+      ]
+    },
+    {
+      "id": "p17",
+      "lines": [
+        "HERIBERT III",
+        "987 Cte de VERMANDOIS *(954) urk 959 ✝29.VIII 1000-1002; ⚭ vor 987 Ermengarde ✝nach 1021-1043 ( ⚭ II Milon II Cte de Tonnerre ✝nach 998)"
+      ],
+      "children": [
+        "p21",
+        "p22"
+      ]
+    },
+    {
+      "id": "p18",
+      "lines": [
+        "Odo (Otto)",
+        "*(956) ✝983/87"
+      ],
+      "children": []
+    },
+    {
+      "id": "p19",
+      "lines": [
+        "Liudolf",
+        "*(957) 6.XI 986✝ 978 Elekt, 979 Bf v Noyon"
+      ]
+    },
+    {
+      "id": "p21",
+      "lines": [
+        "ALBERT II",
+        "um 1000 Cte de VERMANDOIS resign vor 15.VII 1010 *(985/90) ✝nach 1.II 1015"
+      ]
+    },
+    {
+      "id": "p22",
+      "lines": [
+        "EUDES",
+        "1021 Cte de VERMANDOIS urk 982 ✝25.V 1045; Pavie 1021-1027/1045"
+      ],
+      "children": [
+        "p23"
+      ]
+    },
+    {
+      "id": "p23",
+      "lines": [
+        "HERIBERT IV",
+        "1045 Cte de VERMANDOIS 1077 Cte de VALOIS; ⚭ vor 1068 ADÈLE, COMTESSE de __Valois__ T v Raoul III Cte de V de Crépy et de Vitry"
+      ],
+      "children": [
+        "p24",
+        "p25"
+      ]
+    },
+    {
+      "id": "p24",
+      "lines": [
+        "EUDES dit l'INSENSE",
+        "✝nach 1085 ⚭ Hadvige"
+      ]
+    },
+    {
+      "id": "p25",
+      "lines": [
+        "ADÈLAIDE",
+        "Cts de VERMANDOIS et de VALOIS *(1065) ✝28.1X 1120-1124; ⚭ I vor 1080 Hugues I v __Frankreich__ (Capet), 1087 Cte de Valois et de Vermandois ✝Tarsus 18.X 1102; ⚭ II 1103 Renaud Cte de __Clermont__-en-Beauvaisis 1162✝"
+      ]
+    }
+  ]
+}

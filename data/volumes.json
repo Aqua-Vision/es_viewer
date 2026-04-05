@@ -28,6 +28,16 @@
           "id": "v1p1t5",
           "name": "Tafel 5 - DIE KAROLINGER II, 881-887 und 896-899 KAISER, 882-911 KÖNIGE von OSTFRANKEN",
           "file": "data/trees/v1p1t5.json"
+        },
+        {
+          "id": "v1p1t6",
+          "name": "Tafel 6 - DIE KAROLINGER III, KÖNIGE von WESTFRANKEN 877-986, HERZOGE von NIEDERLOTHRINGEN 978-1012",
+          "file": "data/trees/v1p1t6.json"
+        },
+        {
+          "id": "v1p1t7",
+          "name": "Tafel 7 - DIE KAROLINGER IV, GRAFEN von VERMANDOIS 896-1085",
+          "file": "data/trees/v1p1t7.json"
         }
       ]
     }

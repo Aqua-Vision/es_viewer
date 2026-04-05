@@ -1,0 +1,388 @@
+{
+  "id": "v1p1t6",
+  "name": "DIE KAROLINGER III, KÖNIGE von WESTFRANKEN 877-896, HERZOGE von NIEDERLOTHRINGEN 978-1012",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "1. Eduard Hlawitschka, Die Vorfahren Karls des Grossen, in: Wolfgang Braunfels, hgg v, Karl der Grosse Lebenswerk und Nachleben Band 1: Persönlichkeit und Geschichte, hgg v Hellmut Beumann, Düsseldorf 1965, pp 51 - 82",
+    "2. Karl August Eckhardt, Merowingerblut 1 Die Karolinger und ihre Frauen, Witzenhausen 1965, pp 12 - 73",
+    "3. idem, Studia Merovingica, Aalen 1976, besonders pp 118-130 zu Hausmeier Theudoald (- Bibliotheca rerum historicarum 11)",
+    "4. Eduard Hlawitschka, Studien zur Genealogie und Geschichte der Merowinger und frühen Karolinger, in: Rheinische Vierteljahresblätter 43.1979, pp 1 - 99",
+    "5. Karl Ferdinand Werner, Die Nachkommen Karls des Grossen bis um das Jahr 1000 (1.-8. Generation), in: Wolfgang Braunfels, hgg v, Karl der Grosse, Lebenswerk und Nachleben Band IV; Das Nachleben hgg v Wolfgang Braunfels und Percy Ernst Schramm, Düssekdirg 1967, pp 403-482",
+    "6. Eduard Hlawitschka, Zu den Grundlagen des Aufstiegs der Karolinger, in: Rheinische Vierteljahresblätter 49, 1985, pp 1 - 61",
+    "7. idem, Die Anfänge des Hauses Habsburg-Lothringen. Searbrücken 1969, pp 58 ss",
+    "8. Lexikon des Mittelalters 1-VII, München-Zürich 1977-1984, passim",
+    "9. Pierre Riché, Die Karolinger Eine Familie formt Europa, Stuttgart 1987",
+    "10. ingrid Heidrich, Titulatur und Urkunden der arnulfingischen Hausmeier, in: Archiv für Diplomatik 11/12.Band, 1965/66, pp 71 - 279",
+    "11. Lorenz Weinrich, Walo Graf, Mönch und Rebell, Lübeck und Hamburg 1963 (-Karolingische Studien Heft 386)",
+    "12. Brigitte Kasten, Adalhard von Corbie, Düsseldorf 1986 (-Studia humanoria Düsseldorfer Studien zu Mittelalter und Renaissance Band 3)",
+    "13. Rudolf Schieffer, Karolingische Töchter, in: Herrschaft, Kirche, Kulter Beiträge zur Geschichte des Mittelalters Festchrift für Friedrich Prinz zu seinem 65. Geburtstag, hgg v Georg Jenal unter Mitwirkung von Stephanie Haarländer, Stuttgart 1993, pp 124-139",
+    "14. Walter Kienast, Die fränkisce Vasallaität von den Hausmeiern bis zu Ludwig dem Kind und Karl dem Einfältigen, Frankfurt am Main 1990, p 576"
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "KARL II der KAHLE",
+        "838 Kg (v NEUSTRIEN), 840/43 Kg v WESTFRANKEN, 869 Kg v ITALIEN, ·IX 875 Kg v LOTHRINGEN, 25.XII 875 KAISER ✝6.X 877"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p3", "p4", "p5", "p6", "p7", "p8", "p9", "p10", "p11"]},
+        {"marker": "II", "children": ["p12", "p13", "p14", "p15", "p16"]}
+      ]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "Judith",
+        "*(844) ✝nach 870; ⚭ I 1.X 856; Aetelwulf Kg v __Wessex__ ✝858 Kg v Aethelbald ✝860; 862 entführt; ⚭ Auxerre Ende 863 Balduin I Gf von __Flandern__ ✝879"
+      ]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "LUDWIG II der STAMMLER",
+        "·II 856 Kg (v NEUSTRIEN), ·III 867 Kg v AQUITANIEN, 877 Kg v WESTFRANKEN, Troyes 7.IX 878 gekrönt v Papst Johann VIII *1.XI 846 ✝Compiègne 10.IV 879 ▭ ibidem; ⚭ I ·III 862 Ansgard ✝2.XI (nach 879) gesch nach 866 T v Gf Harduin; ⚭ II um 875 Adelheid ✝18.XI (901) jedenfalls ✝nach 9.XI 901 T v Gf Adalard"
+      ],
+      "children": [
+        {"marker": "I", "children": ["p17", "p18", "p19", "p20"]},
+        {"marker": "II", "children": ["p21", "p22"]}
+      ]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "KARL",
+        "·X 855 Kg v (AQUITANIEN) *847/848 ✝29.IX 866; ⚭ 862 NN, Ehe 863 aufgelöst, Wwe v Gf Humbert"
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "Karlmann",
+        "✝876 854 Tonsur, 860 Abt v St-Médard zu Soissons, 870 abgesetzt, 873 geblendet, 874 Abt v Echternach"
+      ]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "Lothar",
+        "✝865 vor 25.XII 861 Mönch,dann Abt von St-Germain zu Auxerre"
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "Ermentrud",
+        "Ermentrud ✝nach 11.VII 877, Äbt v Hasnon bei Douai"
+      ]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "Hildegard"
+      ]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "Gisela"
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "Rotrud",
+        "✝nach 889 (nach 3.II 912)(Äbt v Andlau)"
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "Rothild",
+        "*(871) ✝928/29; ⚭ um 890 Gf Rotger (897 __Maine__ ✝31.X 900)"
+      ]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "Drogo",
+        "*872/73 ✝873/74"
+      ]
+    },
+    {
+      "id": "p14",
+      "lines": [
+        "Pippin",
+        "*872/73 ✝873/74"
+      ]
+    },
+    {
+      "id": "p15",
+      "lines": [
+        "Kind",
+        "*23.III 875 ✝bald nach der Geburt..."
+      ]
+    },
+    {
+      "id": "p16",
+      "lines": [
+        "Karl",
+        "*10.X 876 ✝877 vor 7.IV"
+      ]
+    },
+    {
+      "id": "p17",
+      "lines": [
+        "LUDWIG III",
+        "879 Kg, 111 880 begrenzt auf FRANCIA u NEUSTRIEN *863/65 ✝Saint- Denis 5.VIII 882 ▭ ibidem"
+      ]
+    },
+    {
+      "id": "p18",
+      "lines": [
+        "KARLMANN",
+        "879 Kg, ·III 880 begrenzt auf AQUITANIEN u BURGUND , 882 Kg v WESTFRANKEN *866 ✝6/12.XII 884 ▭ Saint-Denis"
+      ]
+    },
+    {
+      "id": "p19",
+      "lines": [
+        "Hildegard"
+      ]
+    },
+    {
+      "id": "p20",
+      "lines": [
+        "Gisla",
+        "·XI 884✝ ⚭ Robert Gf v __Troyes__ 876 ⚔ Troves ·II 886"
+      ]
+    },
+    {
+      "id": "p21",
+      "lines": [
+        "Ermentrud",
+        "*(875); ⚭ NN"
+      ]
+    },
+    {
+      "id": "p22",
+      "lines": [
+        "KARL III der EINFÄLTIGE",
+        "KARL III der EINFÄLTIGE (le SIMPLE), 28.1 893 Kg, 1.I 898 im WESTREICH, 1.XI 911 auch in LOTHRINGEN, 30.VI 922 abgesetzt 923 gefangen *17.1X 879 ✝ Péronne 7.X 929 ibidem St-Fursy; ⚭ I ·IV 907 vor 19. Frederuna ✝10.II 917 T v Gf Dietrich Schwester v Mathilde ⚭ Kg Heinrich I (Liudolfinger); ⚭ II um 919 Ogiva, / 951 Äbt v ND de Laon abgesetzt ✝nach 951 T v Kg Eduard I v __Wessex__ ( ⚭ II 951 Heribert d Ä, 967 Gf v Meaux u Pfalzgraf (Karolinger) ✝980/84)"
+      ],
+      "children": [
+        {"marker": "NN:", "children": ["p23", "p24", "p25", "p26"]},
+        {"marker": "I", "children": ["p27", "p28", "p29", "p30", "p31", "p32"]},
+        {"marker": "II", "children": ["p33"]}
+      ]
+    },
+    {
+      "id": "p23",
+      "lines": [
+        "Arnulf"
+      ]
+    },
+    {
+      "id": "p24",
+      "lines": [
+        "Drogo"
+      ]
+    },
+    {
+      "id": "p25",
+      "lines": [
+        "Rorico",
+        "✝20.XII 976 ▭ Laon St-Vincent 949 Bf v Laon"
+      ]
+    },
+    {
+      "id": "p26",
+      "lines": [
+        "Alpais",
+        "( ⚭ Erlebold Gf im __Lommegau__ 915 ⚔ 921)"
+      ]
+    },
+    {
+      "id": "p27",
+      "lines": [
+        "Ermentrude",
+        "*908/16, um 934 ⚭ Gottfried Gf im Jülichgau (__Matfride__) ✝26.III nach 949"
+      ]
+    },
+    {
+      "id": "p28",
+      "lines": [
+        "Frederuna",
+        "*(908/16)"
+      ]
+    },
+    {
+      "id": "p29",
+      "lines": [
+        "Adelheid",
+        "*(908/16)"
+      ]
+    },
+    {
+      "id": "p30",
+      "lines": [
+        "Gisla",
+        "*(908/16)"
+      ]
+    },
+    {
+      "id": "p31",
+      "lines": [
+        "Rotrud",
+        "*(908/16)"
+      ]
+    },
+    {
+      "id": "p32",
+      "lines": [
+        "Hildegard",
+        "*(908/16)"
+      ]
+    },
+    {
+      "id": "p33",
+      "lines": [
+        "LUDWIG IV der UBERSEEISCHE",
+        "(TRANSMARINUS, d'OUTRE-MER), 19.VI 936 Kg v WESTFRANKEN *10.IX 920/10.IX 921 ✝Reims ·X 954 ▭ Reims St-Remi; ⚭ 939 Gerberga v __Sachsen__ (Liudolfinger), erhält 951 ND de Laon, 959 Äbt v NDde Soissons, ✝5.V 984 Wwe v Giselbert IIz v Lothringen (Reginare) T v Kg Heinrich I"
+      ],
+      "children": [
+        "p34",
+        "p35",
+        "p36",
+        "p37",
+        "p38",
+        "p39",
+        "p40"
+      ]
+    },
+    {
+      "id": "p34",
+      "lines": [
+        "LOTHAR",
+        "1.XI 954 Kg v WESTFRANKEN *Ende 941 ✝Laon 2.III 986 ▭ Reims St-Remi; ⚭ Anfang 966 Emma v Italien (Arles)*(948) ✝12.X... (nach ·XI 988) T v Kg Lothar u Adelheid v Burgund"
+      ],
+      "children": [
+        {"marker": "aus der Verbindung mit NN:", "children": ["p41", "p42"]},
+        {"marker": "ehelich:", "children": ["p43", "p44"]}
+      ]
+    },
+    {
+      "id": "p35",
+      "lines": [
+        "Mathilde",
+        "*Ende 943 ✝nach 26.XI 981; ⚭ um 964 Konrad Kg v __Burgund__ (Welfen) ✝ 19.X 993"
+      ]
+    },
+    {
+      "id": "p36",
+      "lines": [
+        "Karl",
+        "*·I 945 953✝"
+      ]
+    },
+    {
+      "id": "p37",
+      "lines": [
+        "Tochter",
+        "*Anfang 948"
+      ]
+    },
+    {
+      "id": "p38",
+      "lines": [
+        "Ludwig",
+        "*·XII 948 ✝954 vor 10.IX"
+      ]
+    },
+    {
+      "id": "p39",
+      "lines": [
+        "KARL",
+        "HERZOG v NIEDERLOTHRINEN, 987/91 westfränk Thronprätendent 30.III 991 v Kg Hugo gefangengesetzt, Haft in Orléans *Sommer 953 ✝nach 991 ▭ Maastricht St Servatius; ⚭ vor 979 (um 975) Adelheid"
+      ],
+      "children": [
+        "p45",
+        "p46",
+        "p47",
+        "p48",
+        "p49"
+      ]
+    },
+    {
+      "id": "p40",
+      "lines": [
+        "Heinrich",
+        "*Sommer 953 ✝bald nach der Taufe ..."
+      ]
+    },
+    {
+      "id": "p41",
+      "lines": [
+        "Arnulf",
+        "*vor 967 ✝5.III 1021,988/991 u 999/1021 Ebf v Reims"
+      ]
+    },
+    {
+      "id": "p42",
+      "lines": [
+        "Richard",
+        "✝nach 991"
+      ]
+    },
+    {
+      "id": "p43",
+      "lines": [
+        "LUDWIG V",
+        "8.VI 979 Mit-Kg v WESTFRANKEN, 982/84 Kg v AQUITANIEN 2.III 986 Kg v WESTFRANKEN *(966/67) ✝22.V 987 ▭ Compiègne St-Corneille; ⚭ 982 Adelheid v __Anjou__ 984 getr. Wwe v Étienne Cte de Gevaudan T v Gf Fulco II ( ⚭ III 984/um 986 Wilhelm II(I) Gf v Arles Mkgf der Provence ✝994; ⚭ IV vor 1016 Othon Guillaume 982 Cte de Mâcon et de Nevers, 995 Gf v Burgund (Ivrea) ✝21.IX 1026)"
+      ]
+    },
+    {
+      "id": "p44",
+      "lines": [
+        "Otto",
+        "✝18.XI (vor 986) Dh zu Reims"
+      ]
+    },
+    {
+      "id": "p45",
+      "lines": [
+        "Gerberga",
+        "*(975) ✝27.I nach 1018 ⚭ um 985-990 Lambert I Gf v __Löwen__ (Reginare) ✝12.IX 1015"
+      ]
+    },
+    {
+      "id": "p46",
+      "lines": [
+        "OTTO",
+        "991 Hz v NIEDERLOTHRIGNEN *(975) ✝1012"
+      ]
+    },
+    {
+      "id": "p47",
+      "lines": [
+        "Ludwig",
+        "*vor 989 ✝nach 993"
+      ]
+    },
+    {
+      "id": "p48",
+      "lines": [
+        "Karl",
+        "*989 ✝nach 991"
+      ]
+    },
+    {
+      "id": "p49",
+      "lines": [
+        "Adelheid",
+        "✝nach 1012 ⚭ 990 Albert I Gf v __Namur__ ✝kurz vor 1011"
+      ]
+    }
+  ]
+}

@@ -1133,9 +1133,10 @@ function drawChildMarker(ctx, centerX, baselineY, marker, isSingleChild) {
   ctx.save();
   ctx.font = "11px 'Times New Roman'";
   ctx.fillStyle = "#5f4f3b";
-  const width = ctx.measureText(marker).width;
+  const displayMarker = withTextPresentation(marker);
+  const width = ctx.measureText(displayMarker).width;
   const offsetX = isSingleChild ? 12 : 0;
-  ctx.fillText(marker, centerX - width / 2 + offsetX, baselineY);
+  ctx.fillText(displayMarker, centerX - width / 2 + offsetX, baselineY);
   ctx.restore();
 }
 
