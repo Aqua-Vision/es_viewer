@@ -1,0 +1,141 @@
+{
+  "id": "v1p1t9",
+  "name": "Die HERZOGE von SCHWABEN a.d.H. der Konradiner",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "Friedrich Stein, Geschichte des Königs Konrad I von Franken, Nördlingen 1872",
+    "Irmgard Dietrich, Das Haus der Konradiner. Untersuchungen zur Verfassungsgeschichte der späten Karolingerzeit, Diss.phil. Marburg 1952",
+    "eadem, Die Konradiner im fränkisch-sächsischen Grenzraum von Thüringen und Hessen, in: Hessisches Jahrbuch für Landesgeschichte 3, 1953, pp 57-95",
+    "Ernst Dümmler, Geschichte der Ostfränkischen Kaiser, dritter Band: Die letzten Karolinger und Konrad I, Nachdruck Darmstadt 1960, pp 574-620",
+    "Marie Luise Crome, Konrad Kurzbold, in: Nassauische Annalen 98, 1987, pp 35-59",
+    "Donald C. Jackman, The Konradiner. A Study in Genealogical Methodology, Frankfurt am Main 1990 (-Ius commune Veröffentlichungen des Max-Planck-Instituts für Europäische Rechtsgeschichte 47)",
+    "Johannes Fried, Prolepsis oder Tod. Methodische und andere Bemerkungen zur Konradiner-Genealogie im 10. und frühen 11. Jahrhundert, in: Papstgeschichte und Landesgeschichte. Festschrift für Hermann Jakobs zum 65. Geburtstag, hgg v Joachim Dahlhaus et alii, Köln-Weimar-Wien 1995, pp 70-119",
+    "Reinhard Wenskus, Sächsischer Stammesadel und fränkischer Reichsadel, Göttingen 1976, p 280 (-Abhandlungen der Akademie der Wissenschaften in Göttingen, phil.-hist. Kl. 3. Folge Nr 93)",
+    "Karl Hermann May, Territorialgeschichte des Oberlahnkreises (Weilburg), Marburg 1939, pp 15ff; 19ff (-Schriften des Instituts für geschichtliche Landeskunde in Hessen und Nassau 18)",
+    "Hellmuth Gensicke, Landesgeschichte des Westerwaldes, Wiesbaden 1958, pp 33; 43-47 (-Veröffentlichungen der Historischen Kommission für Nassau XIII)",
+    "Rudolf Wendehorst, Das Bistum Würzburg, Berlin 1962, pp 51-55 (Germania Sacra NF 1)",
+    "Wolf-Heino Struck, Nachträge zu Konrad Kurzbold, Gaugraf des Niederlahngaues und Gründer des Stiftes St. Georg zu Limburg an der Lahn (1948), in: Nassauische Annalen 101, 1990, pp 1-6",
+    "Gerd Wunder, Beiträge zur Genealogie schwäbischer Herzogshäuser, in: Zeitschrift für Württembergische Landesgeschichte XXXI, 1972, pp 1-7",
+    "Armin Wolf, Wer war Kuno \"von Öhningen\"? Überlegungen zum Herzogtum Konrads von Schwaben (✝997) und zur Königswahl vom Jahre 1002, in: Deutsches Archiv für Erforschung des Mittelalters 36, 1980, pp 25-83",
+    "idem, Königskandidatur und Königsverwandtschaft. Hermann von Schwaben als Prüfstein für das „Prinzip der freien Wahl“, in: op. cit. 47, 1991, pp 45-117, hier pp 54-82",
+    "idem, Quasi hereditatem inter filios. Zur Kontroverse über das Königswahlrecht im Jahre 1002 und die Genealogie der Konradiner, in: Zeitschrift der Savigny-Stiftung für Rechtsgeschichte, Germanistische Abt. 112, 1995, pp 64-157 (freundlicher Hinweis des Verfassers auf diese beiden Abhandlungen am 1. Februar 1996)",
+    "Eduard Hlawitschka, Untersuchungen zu den Thronwechseln der ersten Hälfte des 11. Jahrhunderts und zur Adelsgeschichte Süddeutschlands, Sigmaringen 1987, pp 51-55; 137-144",
+    "Winfried Glocker, Die Verwandten der Ottonen und ihre Bedeutung in der Politik. Studien zur Familienpolitik und zur Genealogie des sächsischen Kaiserhauses, Köln-Wien 1989, pp 322ff",
+    "Stefan Weinfurter, Die Salier und das Reich. Ausstellungskatalog, Band 1, Sigmaringen 1991, p 229"
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "KONRAD",
+        "KONRAD ( Kuno Graf von \"OHNINGEN\" ) 983 HERZOG von SCHWABEN (dux Alemaniae et Alsatiae) ✝20.VIII 997; ⚭ Reginlint Tv (Hz Liudolf v Schwaben a.d.H. der Liudolfinger (Ottonen) )",
+        "**Click to view previous tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t8"
+      },
+      "children": [
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8"
+      ]
+    },
+    {
+      "id": "p2",
+      "lines": [
+        "Liutold",
+        "laicus"
+      ]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "Konrad",
+        "laicus"
+      ]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "HERMANN II",
+        "996 dux, 997 Hz SCHWABEN, 1002/03 Thronkandidat ✝2.oder 3.V 1003; ⚭ um 986 Gerberga v Burgund (Welfen) ✝7.VII 1019 (1018) Wwe v Hermann Gf v Werl T v Konrad dem Friedfertigen (Pacificus) Hz v Burgund"
+      ],
+      "children": [
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13"
+      ]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "Ita",
+        "\"v ÖHNINGEN\" ⚭ Rudolf II Gf v Altdorf (Welfen) ✝10.III..."
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "Tochter",
+        "⚭ nach 1011 Wladimir I Svjatoslawitsch d hl Grossfürst v Kiev (__Rurikiden__) ✝15.VII 1015"
+      ]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "Judith",
+        "⚭ I N v (__Rheinfelden); ⚭ II Adalbert Gf v __Metz__ (Matfride) ✝1033"
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "Kunizza",
+        "✝1020; ⚭ Friedrich I Gf (v __Diessen__) 1003/27"
+      ]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "Mathilde",
+        "*(988) ✝29.VII 1031-1032 ▭ Worms Dom ⚭ I um 1002 Konrad Hz v Kärnten (Salier ) ✝12.(15.) XII 1011; ⚭ II Friedrich II, 1019 Hz von Ober__lothringen__ (Wigeriche) ✝1026; ⚭ III Esiko Gf v __Ballenstedt__ Gf im Schwabengan u im Gau Serimunt ✝(1059/60)" 
+      ]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "Gisela",
+        "*11.X (990) ✝Goslar 16.II 1043 ▭ Speyer Dom ⚭ I um 1002 Bruno Gf v (__Braunschweig__) ✝1012/14; ⚭ um 1014 Ernst 1012 Hz v Schwaben (__Babenberger)__ ✝Jagdunfall 31.III (V) 1015 Würzburg; ⚭ III vor ·I 1017 Konrad II Hz v Franken, 1024 HRRKg, 1027 HRRKaiser (__Salier__) ✝4.VI 1039"
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "Berchtold",
+        "*Anfang 992 ~ Einsiedeln 992 ✝Anfang 993 ▭ Marchtal"
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "Beatrix",
+        "✝23.II nach 1125 ⚭ Adalbero 1012/35 Hz v __Kärnten__ (__Eppensteiner__) 1000 ✝8.XI 1039"
+      ]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "HERMANN III",
+        "111, 1003 Hz v SCHWABEN *vor·X 995 ✝1.IV 1012"
+      ]
+    }
+  ]
+}

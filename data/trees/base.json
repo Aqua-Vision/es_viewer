@@ -1,14 +1,10 @@
 {
   "id": "v1p1t1",
-  "name": "Die MEROWINGER I",
+  "name": "Name here",
   "wrap": true,
   "wrapWidth": 250,
   "sources": [
-    "1. Eugen Ewig, Die Namengebung bei den ältesten Frankenkönigen und im merowingischen Konigshaus in: Francia Forschungen zur westeuropäischen Geschichte Band 18/1, Sigmaringen 1991 pp 21-69",
-    {
-      "text": "Chlodwig I wird Weihnachten 497, 498 oder 499 durch Bischof Remigius von Reims getauft Seine 2.Gemhalin Chrodihild hat ihre beiden älteren Söhne schon vorher taufen lassen",
-      "note": "Clovis I was baptized by Bishop Remigius of Reims on Christmas Day in either 497, 498, or 499. His second wife, Chrodihild, had already had her two eldest sons baptized prior to this."
-    }
+    "Example source citation."
   ],
   "people": [
     {
@@ -16,13 +12,6 @@
       "lines": [
         "Arnulf",
         "613 ✝bei Remiremont 18.VII (640) Habendum/Remiremont,damn Metz St Arnulf 614/29 Bf v Metz; ⚭ NN"
-      ]
-    },
-    {
-      "id": "p2",
-      "lines": [
-        "Pippin der Ältere",
-        "623/29 Hausmeiser in Austrien, 613 ✝640 ⚭ Itta-Iduberga,stiftet 640 Nivelles *592 ✝652"
       ]
     }
   ]

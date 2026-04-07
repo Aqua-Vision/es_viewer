@@ -1,0 +1,348 @@
+{
+  "id": "v1p1t8",
+  "name": "Die KONRADINER, 911-918 KÖNIG von OSTFRANKEN",
+  "wrap": true,
+  "wrapWidth": 250,
+  "sources": [
+    "Friedrich Stein, Geschichte des Königs Konrad I von Franken, Nördlingen 1872",
+    "Irmgard Dietrich, Das Haus der Konradiner. Untersuchungen zur Verfassungsgeschichte der späten Karolingerzeit, Diss.phil. Marburg 1952",
+    "eadem, Die Konradiner im fränkisch-sächsischen Grenzraum von Thüringen und Hessen, in: Hessisches Jahrbuch für Landesgeschichte 3, 1953, pp 57-95",
+    "Ernst Dümmler, Geschichte der Ostfränkischen Kaiser, dritter Band: Die letzten Karolinger und Konrad I, Nachdruck Darmstadt 1960, pp 574-620",
+    "Marie Luise Crome, Konrad Kurzbold, in: Nassauische Annalen 98, 1987, pp 35-59",
+    "Donald C. Jackman, The Konradiner. A Study in Genealogical Methodology, Frankfurt am Main 1990 (-Ius commune Veröffentlichungen des Max-Planck-Instituts für Europäische Rechtsgeschichte 47)",
+    "Johannes Fried, Prolepsis oder Tod. Methodische und andere Bemerkungen zur Konradiner-Genealogie im 10. und frühen 11. Jahrhundert, in: Papstgeschichte und Landesgeschichte. Festschrift für Hermann Jakobs zum 65. Geburtstag, hgg v Joachim Dahlhaus et alii, Köln-Weimar-Wien 1995, pp 70-119",
+    "Reinhard Wenskus, Sächsischer Stammesadel und fränkischer Reichsadel, Göttingen 1976, p 280 (-Abhandlungen der Akademie der Wissenschaften in Göttingen, phil.-hist. Kl. 3. Folge Nr 93)",
+    "Karl Hermann May, Territorialgeschichte des Oberlahnkreises (Weilburg), Marburg 1939, pp 15ff; 19ff (-Schriften des Instituts für geschichtliche Landeskunde in Hessen und Nassau 18)",
+    "Hellmuth Gensicke, Landesgeschichte des Westerwaldes, Wiesbaden 1958, pp 33; 43-47 (-Veröffentlichungen der Historischen Kommission für Nassau XIII)",
+    "Rudolf Wendehorst, Das Bistum Würzburg, Berlin 1962, pp 51-55 (Germania Sacra NF 1)",
+    "Wolf-Heino Struck, Nachträge zu Konrad Kurzbold, Gaugraf des Niederlahngaues und Gründer des Stiftes St. Georg zu Limburg an der Lahn (1948), in: Nassauische Annalen 101, 1990, pp 1-6"
+  ],
+  "people": [
+    {
+      "id": "p1",
+      "lines": [
+        "GEBHARD",
+        "GRAF im NIEDERLAHNGAU, stiftet 845 Kl Kettenbach, 879 nach Gemünden transportiert,832,879 geistl zu Gemünden"
+      ],
+      "children": [
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ]
+    },
+    {
+      "id": "p3",
+      "lines": [
+        "UDO",
+        "GRAF im LAHNGAU um 860/879"
+      ],
+      "children": [
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "id": "p4",
+      "lines": [
+        "BERENGAR",
+        "geht 861 zu Karl d Kahlen, 876 GRAF des HESSENGAUES 860 ✝nach 879"
+      ]
+    },
+    {
+      "id": "p5",
+      "lines": [
+        "Waldo",
+        "Abt geht 861 zu Karl d Kahlen, 839 Mönch 868/79 Abt v St Maximin zu Trier ✝ 30.X ..."
+      ]
+    },
+    {
+      "id": "p6",
+      "lines": [
+        "Bertold",
+        "879"
+      ]
+    },
+    {
+      "id": "p7",
+      "lines": [
+        "KONRAD",
+        "d A 886 Gf im OBERLAHNGAU, 897 im HESSENGAU, 903 GRAF im GOTZFELDGAU 905 GRAF in der WETTERAU, GRAF im WORMSGAU, 892/vor 903 MARKGRAF in THÜRINGEN, nepos v Kg Arnulf v Kärnten ⚔ vor Fritzlar 27.II 906 ▭ Weilburg Martinskirche; ⚭ Glismut 906 ✝26.IV 924"
+      ],
+      "children": [
+        "p11",
+        "p12",
+        "p13",
+        "p14"
+      ]
+    },
+    {
+      "id": "p8",
+      "lines": [
+        "EBERHARD",
+        "Gf im NIEDERLAHNGAU, 888 GRAF in der ORTENAU ⚔ vor Bamberg 902-903; ⚭ Wiltrud 903/33 Tv (Walaho)"
+      ],
+      "children": [
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19"
+      ]
+    },
+    {
+      "id": "p9",
+      "lines": [
+        "GEBHARD",
+        "897 u 906 GRAF im OBEREN RHEINGAU, 909 Gf in der WETTERAU 903 DUX REGNI in Lotharingien, 888 ⚔ bei Augsburg (22.) VI 910"
+      ],
+      "children": [
+        "p20",
+        "p21"
+      ]
+    },
+    {
+      "id": "p10",
+      "lines": [
+        "Rudolf",
+        "⚔ in Thüringen 3.VIII 908 892/908 Bf v Würzburg"
+      ]
+    },
+    {
+      "id": "p11",
+      "lines": [
+        "KONRAD I",
+        "d J, 908 Gf im HESSENGAU 910 GRAF im KELDACHGAU u DUX, Forchheim 7/10.XI 911 KÖNIG, stiftet 912 St Walpurgis zu Weilburg ✝23.XII 918 ▭ Fulda; ⚭ 913 Kunigunde Kl Lorsch Wwe v Mkgf Luitpold (Luitpoldinger) Schwester d Gf Erchanger u Berthold (__Ahalolfinger__)"
+      ]
+    },
+    {
+      "id": "p12",
+      "lines": [
+        "EBERHARD",
+        "\"HERZOG v FRANKEN, 913\" Gf im HESSEN und PERFGAU, 913 u 928 Gf im OBERLAHNGAU 914 MARKGRAF, 936 Truchsess, 938 PFALZGRAF, 909 Laienabt v St Maximin zu Trier ⚔ b Andernach 23.X 939 "
+      ]
+    },
+    {
+      "id": "p13",
+      "lines": [
+        "OTTO",
+        "904 GRAF im RUHRGAU, 912 Gf an d mittleren LAHN ✝nach 918"
+      ]
+    },
+    {
+      "id": "p14",
+      "lines": [
+        "Tochter",
+        "⚭ Burkhard"
+      ]
+    },
+    {
+      "id": "p15",
+      "lines": [
+        "SS",
+        "903"
+      ]
+    },
+    {
+      "id": "p16",
+      "lines": [
+        "KONRAD KURZBOLD",
+        "906/07 u 932 Gf im WORMSGAU, 910 Gf im UNTERLAHNGAU, 927 GRAF im AHREGAU, GRAF im LOBDENGAU, stif tet 910 St Georg zu Limburg ✝30.VI 948 ▭ Limburg St Georg"
+      ]
+    },
+    {
+      "id": "p17",
+      "lines": [
+        "GEBHARD",
+        "940 GRAF im UFGAU ✝nach 15.I 947; ⚭ (N v __Vermandois__) T von (Gf Heribert I)"
+      ],
+      "children": [
+        "p22"
+      ]
+    },
+    {
+      "id": "p18",
+      "lines": [
+        "EBERHARD",
+        "913 GRAF im BONNGAU, 928 GRAF in MAIENFELD (927 Gf im RHEINGAU,) 940 Gf ✝(944)"
+      ],
+      "children": [
+        "p23",
+        "p24"
+      ]
+    },
+    {
+      "id": "p19",
+      "lines": [
+        "Tochter",
+        "⚭ Werner 906 Gf im Speyer und Wormsgau (__Salier__) um 890/910✝(920)"
+      ]
+    },
+    {
+      "id": "p20",
+      "lines": [
+        "UDO",
+        "914 Gf in der WETTERAU, 917 u 948 GRAF im RHEINGAU 918 Gf im LAHNGAU, stiftet 914-915 St Maria zu Wetzlar 911 ✝949 Wetzlar St Maria; ⚭ N v __Vermandois__ T v Gf Heribert I"
+      ],
+      "children": [
+        "p25",
+        "p26"
+      ]
+    },
+    {
+      "id": "p21",
+      "lines": [
+        "HERMANN I",
+        "926 HERZOG SCHWABEN, um 914-915 GRAF 939 Gf im LAHNGAU, 948 GRAF im AUELGAU, 947 Laienabt v Echternach, gründet St Florin zu Koblenz ✝19.XII 949 Insel Reichenau; ⚭ 926 Regelinda ✝Insel Ufenau 958 nach 29.IV Wwe v Burchard II Hz v Schwaben Tv (Eberhard II Gf im Zürichgau (__Eberhardinger__) u Gisela"
+      ],
+      "children": [
+        "p27"
+      ]
+    },
+    {
+      "id": "p22",
+      "lines": [
+        "KONRAD",
+        "961 Vogt v Schwarzach, 948-951 Gf im RHEINGAU, 973 GRAF in der ORTENAU, 950 ✝(982) ⚭ (Judith)"
+      ],
+      "children": [
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "id": "p23",
+      "lines": [
+        "EBERHARD",
+        "948,958 u 966 Gf im AUELGAU, 958 Gf im NIEDERLAHNGAU, 966 Gf im LAHNGAU ✝10.V 966"
+      ]
+    },
+    {
+      "id": "p24",
+      "lines": [
+        "KONRAD",
+        "953/65 Gf im LOBDENGAU"
+      ],
+      "children": [
+        "p34"
+      ]
+    },
+    {
+      "id": "p25",
+      "lines": [
+        "Gebhard",
+        "⚔ vor Belecke 938"
+      ]
+    },
+    {
+      "id": "p26",
+      "lines": [
+        "Udo",
+        "✝965, 950/65 Bf v Strassburg"
+      ]
+    },
+    {
+      "id": "p27",
+      "lines": [
+        "Ida",
+        "✝17.V 986; ⚭ Ende 947/Anfang 948 Liudolf v __Sachsen__ (Liudolfinger) Gf 950/54 Hz v Schwaben ✝Piomba 6.IX 957 ▭ St Alban vor Mainz"
+      ]
+    },
+    {
+      "id": "p28",
+      "lines": [
+        "KONRAD",
+        "983 Gf, 985 u 995 Gf im RHEINGAU, 987 Gf im UFGAU, 994 Gf in der ORTENAU",
+        "**Click to view next tree**"
+      ],
+      "nextTree": {
+        "volume": "v1p1",
+        "tree": "v1p1t9"
+      }
+    },
+    {
+      "id": "p29",
+      "lines": [
+        "Konrad",
+        "Hz v SCHWABEN (Kuno von ÖHNINGEN) ✝997"
+      ]
+    },
+    {
+      "id": "p30",
+      "lines": [
+        "Udo",
+        "⚔ Kalabrien 14.VII 982"
+      ]
+    },
+    {
+      "id": "p31",
+      "lines": [
+        "HERIBERT",
+        "976 GRAF im KINZIGGAU, PFALZGRAF ✝992; ⚭ imiza Tv Gf Megingoz u Gerberga (__Matfride__)"
+      ],
+      "children": [
+        "p35",
+        "p36",
+        "p37",
+        "p38"
+      ]
+    },
+    {
+      "id": "p32",
+      "lines": [
+        "Judith",
+        "✝16.X (973); Meinrich Gf im Heilangau (__Stade__) ✝11.V 976"
+      ]
+    },
+    {
+      "id": "p34",
+      "lines": [
+        "MEINGAUD",
+        "965-987 Gf im MAINGAU,987/1002 Gf im LOBDENGAU"
+      ]
+    },
+    {
+      "id": "p35",
+      "lines": [
+        "OTTO von HAMMERSTEIN",
+        "1016 Gf in der WETTERAU, 1019 GRAF im ENGERSGAU, 1002 ✝(5.VI 1036); ⚭ Irmgard ✝1042 T von Gottfried d Gefangenen Gf v Verdun (__Wigeriche__)"
+      ],
+      "children": [
+        "p39"
+      ]
+    },
+    {
+      "id": "p36",
+      "lines": [
+        "GEBHARD",
+        "Gf ✝8.XI 1016"
+      ]
+    },
+    {
+      "id": "p37",
+      "lines": [
+        "Tochter",
+        "Erbin v GLEIBERG ✝nach 985; ⚭ Friedrich Gf im Moselgau (__Wigeriche__) ✝6.X 1019"
+      ]
+    },
+    {
+      "id": "p38",
+      "lines": [
+        "Gerberga",
+        "Gerberga ✝nach 1036 ⚭ Heinrich v __Schweinfurt__ Gf im Nordgau 980 ✝18.IX 1017 ▭ Schweinfurt"
+      ]
+    },
+    {
+      "id": "p39",
+      "lines": [
+        "Udo",
+        "✝1034"
+      ]
+    }
+  ]
+}

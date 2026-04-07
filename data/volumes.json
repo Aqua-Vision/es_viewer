@@ -38,6 +38,16 @@
           "id": "v1p1t7",
           "name": "Tafel 7 - Die KAROLINGER IV, GRAFEN von VERMANDOIS 896-1085",
           "file": "data/trees/v1p1t7.json"
+        },
+        {
+          "id": "v1p1t8",
+          "name": "Tafel 8 - Die KONRADINER, 911-918 KÖNIG von OSTFRANKEN",
+          "file": "data/trees/v1p1t8.json"
+        },
+        {
+          "id": "v1p1t9",
+          "name": "Tafel 9 - Die HERZOGE von SCHWABEN a.d.H. der Konradiner",
+          "file": "data/trees/v1p1t9.json"
         }
       ]
     }
